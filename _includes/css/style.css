@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 p { 
@@ -94,7 +94,7 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	font-weight: 400;
 }
 
 .navbar-header .navbar-brand {
