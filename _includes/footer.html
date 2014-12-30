@@ -10,12 +10,13 @@
 			<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 		{% endfor %}
 		</ul>
-		<br>
+	</nav><!-- social-links -->
+	<div>
 		<ul class="social-links">
 			<li>
 				<a href="https://twitter.com/cagedcrown" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');"> <span class="twitter fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span> </a>
 			</li>
 		</ul>
-	</nav><!-- /.bottom-menu -->
+	</div><!-- /.bottom-menu -->
 	<p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
 </footer>
