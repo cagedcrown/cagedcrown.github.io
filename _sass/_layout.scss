@@ -23,7 +23,7 @@
 	text-decoration: none;
 	color: $black;
 	font-family: $alt-font;
-	font-weight: 400;
+	font-weight: 700;
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;

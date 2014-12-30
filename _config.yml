@@ -1,17 +1,17 @@
 # Site wide configuration
 
-title: CagedCrown
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale:
-url:
+title: Caged Crown
+description: "A blog about code, design, and habits"
+logo: 120x120.gif
+teaser: 400x250.gif
+locale: en_US
+url: //cagedcrown.com
 
 # Jekyll configuration
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 permalink: /:categories/:title/
 markdown: kramdown
 highlighter: pygments
@@ -21,15 +21,17 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email: mo@cagedcrown
+  name: Maury Lindo
+  web: http://cagedcrown.com
+  email: mo@cagedcrown.com
   twitter: cagedcrown
-  google:
-    ad-client: 
-    ad-slot: 
-  bio: 
+  bio: "Designer turned developer."
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname: cagedcrown
+  google:
+    plus: #+MichaelRoseDesign
+    ad-client: #ca-pub-7328585512091257
+    ad-slot: #3049671934
+  disqus-shortname: cagedcrown
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
