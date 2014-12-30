@@ -453,6 +453,12 @@
 // FOOTER
 // --------------------------------------------------
 
+footer {
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+}
+
 #site-footer {
 	@include outer-container;
 	margin-top: (3 * (0px + $doc-line-height));
