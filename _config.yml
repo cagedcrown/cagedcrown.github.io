@@ -1,35 +1,58 @@
 # Site wide configuration
 
-title: Caged Crown
-description: Maury T. Lindo's Personal Website
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale:
-url: http//:cagedcrown.com
+title:            Caged Crown
+locale:           en_US
+url:              
+
 
 # Jekyll configuration
 
-sass:
-    sass_dir: _sass
-    style: compressed
-permalink: /:categories/:title/
-markdown: kramdown
+permalink:   /:categories/:title/
+markdown:    kramdown
 highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
 gems:
   - jekyll-sitemap
 
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
 
 # Site owner
-owner: Maury Lindo
-  name:
+owner:
+  name: Maury Lindo
+  avatar: bio-photo.jpg
+  bio: "Cool Guy."
   email: mo@cagedcrown.com
-  twitter: @cagedcrown
+  disqus-shortname: cagedcrown
+  twitter: cagedrown
+  facebook: #username
   google:
+    plus: #username
+    analytics: 
+    verify: 
     ad-client: 
     ad-slot: 
-  bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+  bing-verify: 
+  github: cagedcrown
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: cagedcrown
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: cagedcrown
+  youtube: #username
+  soundcloud: #username
+  codepen: cagedcrown
 
-
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
