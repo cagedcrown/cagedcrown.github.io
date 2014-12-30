@@ -1,0 +1,26 @@
+# Site navigation links
+
+- title: WebDev
+  url: /work
+  excerpt:
+  image:
+
+- title: Design
+  url: /design
+  excerpt:
+  image:
+
+- title: Archive
+  url: /archive
+  excerpt:
+  image:
+
+- title: About
+  url: /about
+  excerpt:
+  image:
+
+- title: Contact
+  url: /about
+  excerpt:
+  image:
