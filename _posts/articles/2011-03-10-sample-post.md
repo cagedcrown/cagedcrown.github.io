@@ -98,6 +98,8 @@ Make any link standout more when applying the `.btn` class.
 
 ### Social Media Buttons
 
+<a href="#" class="btn-social github"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+<a href="#" class="btn-social codepen"><i class="fa fa-codepen" aria-hidden="true"></i> Codepen</a>
 <a href="#" class="btn-social facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
 <a href="#" class="btn-social flickr"><i class="fa fa-flickr" aria-hidden="true"></i> Flickr</a>
 <a href="#" class="btn-social foursquare"><i class="fa fa-foursquare" aria-hidden="true"></i> Foursquare</a>
