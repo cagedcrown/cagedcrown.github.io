@@ -454,9 +454,14 @@
 // --------------------------------------------------
 
 footer {
-	margin-right: auto;
-	margin-left: auto;
-	list-style: none;
+	text-align: center;
+	list-style-type: none;
+}
+
+.social-icons {
+	float: right;
+	display: inline-block;
+	list-style-type: none;
 }
 
 #site-footer {
@@ -465,6 +470,7 @@ footer {
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
 	padding-bottom: $gutter;
 	font-family: $alt-font;
+	text-align: center;
 	.copyright {
 		@include font-size(12);
 		color: lighten($black,60);
@@ -475,6 +481,3 @@ footer {
 	}
 }
 
-.social-links {
-	display: inline-block;
-}
