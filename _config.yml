@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Caged Crown
+title:            CagedCrown
 locale:           en_US
 url:              
 
@@ -43,13 +43,13 @@ owner:
   github: cagedcrown
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: cagedcrown
+  instagram: #cagedcrown
   lastfm: #username
   tumblr: #username
   pinterest: #username
   foursquare: #username
   steam: #username
-  dribbble: cagedcrown
+  dribbble: #cagedcrown
   youtube: #username
   soundcloud: #username
   codepen: cagedcrown
