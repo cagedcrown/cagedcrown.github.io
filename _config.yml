@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
-description:
+title: Caged Crown
+description: Maury T. Lindo's Personal Website
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
-url:
+url: http//:cagedcrown.com
 
 # Jekyll configuration
 
@@ -20,10 +20,10 @@ gems:
 
 
 # Site owner
-owner:
-  name:
-  email:
-  twitter:
+owner: Maury Lindo
+  name: Maury T. Líndo
+  email: mo@cagedcrown.com
+  twitter: @cagedcrown
   google:
     ad-client: 
     ad-slot: 
