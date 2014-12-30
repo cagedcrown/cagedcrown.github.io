@@ -98,13 +98,12 @@
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
-			text-transform: uppercase;
 		}
 	}
 }
 .bottom-menu {
 	@include clearfix;
-	font-weight: 700;
+	font-weight: 200;
 	a {
 		color: lighten($black,60);
 	}
