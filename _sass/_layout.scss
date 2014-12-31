@@ -454,15 +454,16 @@
 // --------------------------------------------------
 
 footer {
-	text-align: left;
+	text-align: center;
 	list-style-type: none;
 }
 
-.social-icons {
-	float: left;
-	text-align: left;
+#social-icons {
+	float: right;
+	text-align: right;
 	display: inline-block;
 	list-style-type: none;
+	text-decoration: none;
 }
 
 #site-footer {
@@ -478,6 +479,7 @@ footer {
 		a {
 			color: lighten($black,60);
 			text-decoration: none;
+			text-align: left;
 		}
 	}
 }

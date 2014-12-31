@@ -11,7 +11,8 @@
 		{% endfor %}
 		</ul>
 	<br>
-	<div class="social-icons">
+	
+	<div id="social-icons">
 	<ul>
 		<li>
 			<a href="https://twitter.com/cagedcrown" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');"> <span class="twitter fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span> </a>
@@ -20,7 +21,7 @@
 		<li>
 			<a href="https://github.com/cagedcrown" onclick="ga('send', 'event', 'link', 'click', 'Github follow');"> <span class="github fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-github fa-stack-1x fa-inverse"></i> </span> </a>
 		</li>
-		
+
 		<li>
 			<a href="https://codepen.io/cagedcrown" onclick="ga('send', 'event', 'link', 'click', 'Codepen follow');"> <span class="codepen fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-codepen fa-stack-1x fa-inverse"></i> </span> </a>
 		</li>
@@ -29,11 +30,10 @@
 			<a href="mailto:mo@cagedcrown.com"> <i class="fa fa-envelope-2x"></i> </a>
 		</li>
 
-
-
 	</ul>
 	</div>
-	</nav><!-- social-links -->
+	<br>
+	</nav>
 		<!-- /.bottom-menu -->
 	<p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
 
