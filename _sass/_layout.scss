@@ -464,6 +464,7 @@ footer {
 	display: inline-block;
 	list-style-type: none;
 	text-decoration: none;
+	overflow: auto;
 }
 
 #site-footer {
@@ -473,6 +474,7 @@ footer {
 	padding-bottom: $gutter;
 	font-family: $alt-font;
 	text-align: left;
+	overflow: auto;
 	.copyright {
 		@include font-size(12);
 		color: lighten($black,60);
