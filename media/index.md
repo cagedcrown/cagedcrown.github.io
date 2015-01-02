@@ -6,8 +6,8 @@ modified:
 excerpt: "A collection of projects & experiments"
 tags: []
 image:
-  feature:
-  teaser:
+  feature: dc.jpg
+  teaser: dc.jpg
 ---
 
 <div class="tiles">
