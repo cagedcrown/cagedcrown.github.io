@@ -6,6 +6,7 @@ modified: 2014-08-27T11:57:41-04:00
 tags: [sample]
 toc: true
 comments: true
+ads: false
 ---
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
@@ -41,9 +42,9 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 ### Ordered Lists
 
 1. Item one
-	 1. sub item one
-	 2. sub item two
-	 3. sub item three
+1. sub item one
+2. sub item two
+3. sub item three
 2. Item two
 
 ### Unordered Lists
@@ -68,17 +69,17 @@ Syntax highlighting via Pygments
 
 {% highlight css linenos=table %}
 #container {
-	float: left;  
-	margin: 0 -240px 0 0;  
-	width: 100%;
+float: left;  
+margin: 0 -240px 0 0;  
+width: 100%;
 }
 {% endhighlight %}
 
 Non Pygments code example
 
-	<div id="awesome">
-			<p>This is great isn't it?</p>
-	</div>
+<div id="awesome">
+	<p>This is great isn't it?</p>
+</div>
 
 ## Buttons
 
@@ -204,18 +205,6 @@ Set a block of text off from the rest.
 	</form>
 </fieldset>
 
-{% if page.comments %}
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = ''; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+<aside>
+	{% if page.comments == true %}{% include comments.html %}{% endif %}
+</aside>
