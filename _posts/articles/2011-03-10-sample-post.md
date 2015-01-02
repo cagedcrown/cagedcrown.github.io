@@ -204,7 +204,3 @@ Set a block of text off from the rest.
 		</p>
 	</form>
 </fieldset>
-
-<aside>
-	{% if page.comments == true %}{% include comments.html %}{% endif %}
-</aside>

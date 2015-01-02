@@ -5,6 +5,7 @@ modified:
 categories: articles
 excerpt: "Demo post to test the various ways of using syntax highlighting."
 tags: []
+comments: true
 image:
   feature:
   teaser:
