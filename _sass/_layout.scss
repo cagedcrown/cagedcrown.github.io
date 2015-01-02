@@ -140,6 +140,12 @@
 // MAIN
 // --------------------------------------------------
 
+.indexfeature {
+	margin-top: 6em;
+	margin-bottom: 6em;
+	text-align: left;
+}
+
 #main {
 	.inner-wrap {
 		@include media($medium) {
@@ -236,10 +242,13 @@
 }
 // page lead
 .page-lead {
+	height: 100%;
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	text-align: center;
+	background-attachment: absolute;
+	text-align: left;
+	margin-bottom: 15em;
+	padding-top: 15em;
 	color: $white;
 	@include media($large) {
 		background-size: cover;
@@ -247,6 +256,7 @@
 }
 .page-lead-content {
 	padding: 1em;
+	color: red;
 	@include media($medium) {
 		padding: 2em;
 	}
