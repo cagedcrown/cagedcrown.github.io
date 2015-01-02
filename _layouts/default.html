@@ -62,13 +62,12 @@
       {% if page.comments == true %}
       <div class="wrap">
         <aside class="inner-wrap">{% include comments.html %}</aside>
-        {% if page.ads != false %}<div class="sidebar ads">{% include advertising-comments.html %}</div><!-- /.ads -->{% endif %}
       </div><!-- /.wrap -->
       {% endif %}
 
       <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
       <script src="{{ site.url }}/js/main.js"></script>
-      
+
       {% if page.toc == true %}
       <script type="text/javascript">
         $('.toc').toc({
