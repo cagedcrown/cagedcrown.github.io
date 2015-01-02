@@ -10,24 +10,8 @@ image:
   teaser:
 ---
 
-### Web Development
-
 <div class="tiles">
 {% for post in site.categories.media %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
-<br>
-
-### Design
-Coming Soon...
-<div class="tiles">
-
-</div>
-<br>
-
-### Animation
-Coming Soon...
-<div class="tiles">
-
-</div>
