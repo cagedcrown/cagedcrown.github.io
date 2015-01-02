@@ -439,7 +439,15 @@
 	@include font-size(16);
 }
 
-
+hr {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-top: 2px solid #ddd;
+	width: 8.4716em;
+	clear: both;
+}
 // SCROLL ARROW CUE
 // --------------------------------------------------
 
