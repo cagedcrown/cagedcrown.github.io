@@ -94,7 +94,8 @@
 	}
 	li {
 		a {
-			font-weight: 200;
+			font-weight: 700;
+			text-transform: uppercase;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
@@ -103,7 +104,7 @@
 }
 .bottom-menu {
 	@include clearfix;
-	font-weight: 200;
+	font-weight: 700;
 	a {
 		color: $black;
 	}
