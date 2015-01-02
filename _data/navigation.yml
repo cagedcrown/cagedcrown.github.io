@@ -1,5 +1,10 @@
 # Site navigation links
 
+- title: home
+  url: /
+  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
+  image: doodle_400x250.jpg
+
 - title: articles
   url: /articles/
   excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
