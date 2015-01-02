@@ -3,7 +3,6 @@ layout: home
 permalink: /
 image:
   feature: doodle.jpg
-comments: true
 ---
 
 <div class="tiles">

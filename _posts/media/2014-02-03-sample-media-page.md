@@ -3,7 +3,7 @@ layout: media
 title: "Media Post with Large Feature Image"
 categories: media
 excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
-ads: true
+ads: false
 share: false
 image:
   feature: lock-1600x800.jpg
