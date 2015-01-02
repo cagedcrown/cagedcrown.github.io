@@ -13,8 +13,10 @@ ads: false
 ---
 
 Maury T. Líndo is an aspiring full-stack developer who has an eye for pixel perfection. 
-Mo was a professional designer/animator for 5 years in the Washington, DC metropolitan area. Although his skillset in multimedia is vast, Mo has fallen in love with Web Development and UX/UI Design. His goal is to combine my knowledge and experience in my areas of expertise to deliver the best innovative and creative content to my clients and their audiences. When I'm not coding, designing, or animating, I also enjoy photography, weightlifting, meditation, and cooking.
+Mo was a professional designer/animator for 5 years in the Washington, DC metropolitan area. Although his skillset in multimedia is vast, Mo has fallen in love with Web Development and UX/UI Design. Mo is focused on becoming a unicorn, by being both a developer and a designer. When Mo isn't coding, designing, or animating, He also enjoys photography, weightlifting, meditation, and cooking.
+
+<br>
 
 ###Origin of 'CagedCrown'
 
-While he was in college, he stumbled across the art work of Jean-Michel Basquiat. A black graffiti artist and painter who used a crown motif to symbolize people or objects that he respected. CagedCrown is Mo's personal take on potential in relation to self-actualization, meaning that everyone is capable of reaching their goals regardless of limitations and hurdles that may be in their way.
+While Mo was in college, he stumbled across the art work of Jean-Michel Basquiat. A black graffiti artist and painter who used a crown motif to symbolize people or objects that he respected. CagedCrown is Mo's personal take on potential in relation to self-actualization.
