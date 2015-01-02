@@ -6,8 +6,8 @@ modified:
 excerpt: "A collection of thoughts and tutorials"
 tags: []
 image:
-  feature: doodle.jpg
-  teaser: doodle_400x250.jpg
+  feature: 
+  teaser: 
 ---
 
 <div class="tiles">
