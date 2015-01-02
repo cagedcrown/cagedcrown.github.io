@@ -6,7 +6,6 @@ modified: 2014-08-27T11:57:41-04:00
 tags: [sample]
 toc: true
 comments: true
-ads: false
 ---
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
@@ -205,7 +204,7 @@ Set a block of text off from the rest.
 	</form>
 </fieldset>
 
-% if page.comments %
+{% if page.comments %}
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -219,4 +218,4 @@ Set a block of text off from the rest.
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-% endif %
+{% endif %}
