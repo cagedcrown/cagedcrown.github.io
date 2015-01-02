@@ -2,8 +2,8 @@
 // --------------------------------------------------
 
 #masthead {
-	border-top: 2px solid black;
-	
+	border-top: 4px solid black;
+
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
