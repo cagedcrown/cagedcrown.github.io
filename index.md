@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: placeholdit_1600x800.gif
+  feature: doodle.jpg
 ---
 
 <div class="tiles">
