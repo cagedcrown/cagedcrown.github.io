@@ -17,11 +17,16 @@ image:
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
+<br>
 
 ### Design
-
+<div class="tiles">
 Coming Soon...
+</div>
+<br>
 
 ### Animation
 
+<div class="tiles">
 Coming Soon...
+</div>
