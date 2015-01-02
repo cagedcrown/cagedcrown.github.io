@@ -1,18 +1,13 @@
 # Site navigation links
 
-- title: webdev
+- title: articles
   url: /articles/
   excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
   image: doodle_400x250.jpg
 
-- title: design
+- title: work
   url: /media/
   excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
-  image: doodle_400x250.jpg
-
-- title: archive
-  url: /archive/
-  excerpt: "Examples of long form posts."
   image: doodle_400x250.jpg
 
 - title: about
