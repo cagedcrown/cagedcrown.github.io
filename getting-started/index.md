@@ -6,11 +6,12 @@ modified:
 excerpt:
 tags: []
 image:
-  feature:
-  teaser:
+  feature: doodle.jpg
+  teaser: doodle_400x250.jpg
   thumb:
 toc: true
 share: false
+comments: true
 ---
 
 ## Installation

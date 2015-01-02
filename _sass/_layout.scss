@@ -3,9 +3,6 @@
 
 #masthead {
 	border-top: 4px solid black;
-	-webkit-box-shadow: 0 10px 6px -6px #777;
-	-moz-box-shadow: 0 10px 6px -6px #777;
-	box-shadow: 0 10px 6px -6px #777;
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
