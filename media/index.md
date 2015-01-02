@@ -20,13 +20,14 @@ image:
 <br>
 
 ### Design
-<div class="tiles">
 Coming Soon...
+<div class="tiles">
+
 </div>
 <br>
 
 ### Animation
-
-<div class="tiles">
 Coming Soon...
+<div class="tiles">
+
 </div>
