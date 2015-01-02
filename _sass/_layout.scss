@@ -242,12 +242,12 @@
 }
 // page lead
 .page-lead {
-	height: 100%;
+	height: auto;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: absolute;
 	text-align: left;
-	margin-bottom: 15em;
+	padding-bottom: 15em;
 	padding-top: 15em;
 	color: $white;
 	@include media($large) {
