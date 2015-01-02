@@ -2,7 +2,10 @@
 // --------------------------------------------------
 
 #masthead {
-	border-bottom: 3px solid black;
+	border-top: 2px solid black;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+  	-webkit-box-shadow: inset 0 0 10px #000000;
+  	box-shadow:         inset 0 0 10px #000000;
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
