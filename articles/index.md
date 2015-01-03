@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "Articles"
+title: "Thoughts"
 date: 2014-05-30T11:39:03-04:00
 modified:
-excerpt: "A collection of thoughts and tutorials"
+excerpt: "A collection of words that form sentences."
 tags: []
 image:
   feature: 
