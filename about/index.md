@@ -18,7 +18,7 @@ Mo was a professional designer/animator for 5 years in the Washington, DC metrop
 ###Origin of 'CagedCrown'
 
 <figure>
-	<a href="http://basquiat.com/"><img src="//cagedcrown.com/images/basquiat.jpg" class="post-teaser"></a>
+	<a href="http://basquiat.com/" class="post-teaser"><img src="//cagedcrown.com/images/basquiat.jpg"></a>
 	<figcaption>'Trumpet' (1964). Jean-Michel Basquiat</figcaption>
 </figure>
 
