@@ -17,4 +17,9 @@ Mo was a professional designer/animator for 5 years in the Washington, DC metrop
 
 ###Origin of 'CagedCrown'
 
+<figure>
+	<a href="http://basquiat.com/"><img src="//cagedcrown.com/images/basquiat.jpg"></a>
+	<figcaption>Jean-Michel Basquiat</figcaption>
+</figure>
+
 While Mo was in college, he stumbled across the artwork of Jean-Michel Basquiat, a black New York City graffiti artist and painter. Basquiat used a crown motif that symbolized honor & respect. CagedCrown is just Mo's personal take on that symbolism in relation to self-actualization.
