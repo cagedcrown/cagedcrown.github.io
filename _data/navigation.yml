@@ -5,6 +5,11 @@
   excerpt: "A collection of thoughts and tutorials."
   image: doodle_400x250.jpg
 
+- title: videos
+  url: /videos/
+  excerpt: "A collection of videos from the CagedCrown YouTube channel."
+  image: doodle_400x250.jpg
+
 - title: work
   url: /work/
   excerpt: "A collection of personal projects and experiments related to web development and design."
