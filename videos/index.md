@@ -3,7 +3,7 @@ layout: archive
 title: "Videos"
 date: 2015-01-03
 modified:
-excerpt: "A collection of videos from the CagedCrown YouTube channel."
+excerpt: "Coming Soon"
 tags: []
 image:
   feature: 
