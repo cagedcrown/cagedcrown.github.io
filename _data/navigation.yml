@@ -1,21 +1,16 @@
 # Site navigation links
 
-- title: home
-  url: /
-  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
-  image: doodle_400x250.jpg
-
-- title: articles
-  url: /articles/
-  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
+- title: blog
+  url: /blog/
+  excerpt: "A collection of thoughts and tutorials."
   image: doodle_400x250.jpg
 
 - title: work
-  url: /media/
-  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
+  url: /work/
+  excerpt: "A collection of personal projects and experiments related to web development and design."
   image: doodle_400x250.jpg
 
 - title: about
   url: /about/
-  excerpt: "All about Maury T. Líndo the origins of CagedCrown."
+  excerpt: "All about Maury T. Líndo and the origins of CagedCrown."
   image: doodle_400x250.jpg
