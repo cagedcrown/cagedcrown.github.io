@@ -12,4 +12,4 @@ share: false
 ads: false
 ---
 
-Maury T. Líndo is an aspiring full-stack developer who has an eye for pixel perfection. Mo was a professional designer/animator for 5 years in the Washington, DC metropolitan area. Although his skillset in multimedia is vast, Mo has fallen in love with Web Development and UX/UI Design. In his down time he enjoys photography, weightlifting, meditation, and cooking.
+Maury T. Líndo is an aspiring full-stack developer who has an eye for pixel perfection. Mo was a professional designer/animator for 5 years in the Washington, DC metropolitan area. Although his skillset in multimedia is vast, Mo has fallen in love with Web Development and UX/UI Design.
