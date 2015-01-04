@@ -3,12 +3,14 @@ layout: archive
 title: "Videos"
 date: 2015-01-03
 modified:
-excerpt: "Coming Soon"
+excerpt: 
 tags: []
 image:
   feature: 
   teaser: 
 ---
+
+Coming soon...
 
 <div class="tiles">
 {% for post in site.categories.videos %}

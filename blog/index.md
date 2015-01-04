@@ -3,12 +3,14 @@ layout: archive
 title: "Blog"
 date: 2015-01-03
 modified:
-excerpt: "A collection of thoughts and tutorials."
+excerpt: 
 tags: []
 image:
   feature: 
   teaser: 
 ---
+
+A collection of thoughts and tutorials.
 
 <div class="tiles">
 {% for post in site.categories.blog %}

@@ -3,12 +3,13 @@ layout: archive
 title: "Work"
 date: 2015-01-03
 modified:
-excerpt: "A collection of projects & experiments"
+excerpt: 
 tags: []
 image:
   feature: 
   teaser: 
 ---
+A collection of projects & experiments.
 
 <div class="tiles">
 {% for post in site.categories.work %}

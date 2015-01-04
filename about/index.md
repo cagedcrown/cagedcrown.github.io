@@ -3,7 +3,7 @@ layout: article
 title: "About Me"
 date: 2015-01-03
 modified: 
-excerpt: "About Maury T. Líndo"
+excerpt: 
 image:
   feature: 
   teaser: 
