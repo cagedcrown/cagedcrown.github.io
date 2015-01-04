@@ -1,21 +1,21 @@
 # Site navigation links
 
-- title: blog
+- title: Blog
   url: /blog/
   excerpt: "A collection of thoughts and tutorials."
   image: doodle_400x250.jpg
 
-- title: videos
+- title: Videos
   url: /videos/
   excerpt: "A collection of videos from the CagedCrown YouTube channel."
   image: doodle_400x250.jpg
 
-- title: work
+- title: Work
   url: /work/
   excerpt: "A collection of personal projects and experiments related to web development and design."
   image: doodle_400x250.jpg
 
-- title: about
+- title: About
   url: /about/
   excerpt: "All about Maury T. Líndo and the origins of CagedCrown."
   image: doodle_400x250.jpg
