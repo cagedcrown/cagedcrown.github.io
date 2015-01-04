@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: archive
 title: "About Me"
 date: 2015-01-03
 modified: 
