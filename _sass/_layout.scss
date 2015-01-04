@@ -472,6 +472,25 @@ hr {
 // FOOTER
 // --------------------------------------------------
 
+#disqus_thread {
+	color: black;
+}
+#disqus_thread a {
+	color: red;
+}
+
+.dsq-by {
+	display: none;
+}
+
+.dsq-dc-logo {
+	display: none;
+}
+
+.dsq-options {
+	display: none;
+}
+
 footer {
 	text-align: left;
 	list-style-type: none;
