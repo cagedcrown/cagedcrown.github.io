@@ -8,7 +8,7 @@ image:
   feature: 
   teaser: 
   thumb: 
-share: false
+share: true
 ads: false
 ---
 
