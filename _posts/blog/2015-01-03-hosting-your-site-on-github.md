@@ -54,13 +54,12 @@ Inside your CNAME file type yourdomainname.com (you do not need to add the "http
 
     </code>
 </pre>
-Check out yourusername.github.io site
 
-##Namecheap
+##Login to Namecheap
 
 If you have not already bought a domain name. Buy one on <a href="https://namecheap.com">Namecheap.com</a>
 
-<h4>After you are finished go to "Manage Domains > All Host Records"</h4>
+<h4>Go to "Manage Domains > All Host Records"</h4>
 
 <figure>
     <img src="../../images/all_host_records.png"></a>
@@ -80,7 +79,7 @@ If you have not already bought a domain name. Buy one on <a href="https://namech
     <img src="../../images/manage_domain.png"></a>
 </figure>
 
-<h4>After you finish, wait 5-10 minutes for your changes to take effect.</h4>
+After your changes are saved, wait 5-10 minutes so github can host your website.
 
 <br>
 Thanks for reading! 
