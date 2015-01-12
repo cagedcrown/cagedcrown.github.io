@@ -46,7 +46,7 @@ In Github, create a new repo that is an exact match of your username.
     </code>
 </pre>
 
-*REMEMBER: you need to have a repo created on github before you can use <code>git remote add origin git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.</code>*
+*REMEMBER: you need to have a repo created on github before you can use* <code>git remote add origin git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.</code>
 
 <h4>Create an index.html</h4>
 
@@ -60,12 +60,11 @@ Inside your CNAME file insert your domain name. You do not need to add the "http
 </figure>
 
 <h4>Git add, git commit, and git push your changes.</h4>
-
 <pre>
     <code>
     git add .
-    git commit -m "initial commit"
-    git push -u origin master
+    git commit -m "your commit message"
+    git push origin master
     </code>
 </pre>
 <h2>Namecheap</h2>
