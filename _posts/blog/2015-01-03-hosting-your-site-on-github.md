@@ -34,10 +34,10 @@ Your repo has to be an exact match of your username.
 
 <h4>Create an index.html</h4>
 
-In your index.html file type "Hello World!"
+In your index.html file type <code>Hello World!</code>
 
 <h4>Create a CNAME file</h4>
-Inside your CNAME file type yourdomainname.com (you do not need to add the "http://" part)
+Inside your CNAME file insert your domain name. You do not need to add the "http://" part.)
 
 <figure>
     <img src="../../images/cname.png"></a>
@@ -47,17 +47,14 @@ Inside your CNAME file type yourdomainname.com (you do not need to add the "http
 
 <pre>
     <code>
-
     git add .
     git commit -m "initial commit"
     git push -u origin master
-
     </code>
 </pre>
-
 ##Login to Namecheap
 
-If you have not already bought a domain name. Buy one on <a href="https://namecheap.com">Namecheap.com</a>
+If you have not already bought a domain name. Purchase one at <a href="https://namecheap.com">Namecheap.com</a>
 
 <h4>Go to "Manage Domains > All Host Records"</h4>
 
@@ -69,7 +66,7 @@ If you have not already bought a domain name. Buy one on <a href="https://namech
 
 1. Change your @hostname to an A Record. 
 
-2. Change your IP/ADDRESS to github's: <pre><code>192.30.252.153</code></pre>
+2. Change your IP/ADDRESS to github's: <code>192.30.252.153</code>
 
 3. Change your "www" to CNAME. 
 
@@ -79,7 +76,7 @@ If you have not already bought a domain name. Buy one on <a href="https://namech
     <img src="../../images/manage_domain.png"></a>
 </figure>
 
-After your changes are saved, wait 5-10 minutes so github can host your website.
+After your changes are saved, wait 5-10 minutes for yourdoaminname.com to be hosted on github.
 
 <br>
 Thanks for reading! 
