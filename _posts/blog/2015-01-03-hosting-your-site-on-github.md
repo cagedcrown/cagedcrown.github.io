@@ -27,8 +27,6 @@ In Github, create a new repo that is an exact match of your username.
 
 <h4>git init or git clone</h4>
 
-**REMEMBER: you need to have a repo created on github before you can use <code>git remote add origin git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.</code>
-
 ...git init
 <pre>
     <code>
@@ -47,6 +45,9 @@ In Github, create a new repo that is an exact match of your username.
     git push -u origin master
     </code>
 </pre>
+
+*REMEMBER: you need to have a repo created on github before you can use <code>git remote add origin git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.</code>*
+
 <h4>Create an index.html</h4>
 
 In your index.html file type <code>Hello World!</code>
