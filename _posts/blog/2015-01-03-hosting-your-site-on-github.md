@@ -52,7 +52,7 @@ Inside your CNAME file insert your domain name. You do not need to add the "http
     git push -u origin master
     </code>
 </pre>
-## Login to Namecheap
+<h2>Namecheap</h2>
 
 If you have not already bought a domain name. Purchase one at <a href="https://namecheap.com">Namecheap.com</a>
 
