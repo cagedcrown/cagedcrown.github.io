@@ -4,9 +4,8 @@ title: "Hosting your site on Github in 5 Minutes"
 categories: blog
 date: 2015-01-11
 modified:
-excerpt: How to host your site on Github using a NameCheap domain name in 5 Minutes or less.
+excerpt: How to host your site on Github using a NameCheap domain name in 10 Minutes or less.
 tags: []
-toc: true
 image:
   feature: 
   teaser: 
@@ -34,22 +33,21 @@ Your repo has to be an exact match of your username.
     </code>
 </pre>
 
-##Create an index.html
+Create an index.html
 
 In your index.html file type "Hello World!"
 
-##Create a CNAME file
-    {% raw %}
-    touch CNAME
-    {% endraw %}
-yourdomainname.com (you do not need to add the "http://" part)
-    </code>
-</pre>
+Create a CNAME file. Inside your CNAME file type:
+<code>
+    yourdomainname.com # (you do not need to add the "http://" part)
+</code>
+
 <figure>
     <img src="../../images/cname.png"></a>
 </figure>
 
-##Git add, git commit, and git push your changes
+Git add, git commit, and git push your changes.
+
 <pre>
     <code>
 git add .
@@ -66,19 +64,19 @@ In NameCheap.com go to "Manage Domains > All Host Records"
     <img src="../../images/all_host_records.png"></a>
 </figure>
 
-<h4>Modify your domain name settings</h4>
+Modify your domain name settings
 
 <figure>
     <img src="../../images/manage_domain.png"></a>
 </figure>
 
-##Change your @hostname to an A Record. 
+1) Change your @hostname to an A Record. 
 
-Change your IP/ADDRESS to: 192.30.252.153
+2) Change your IP/ADDRESS to github's: 192.30.252.153
 
-##Change your "www" to CNAME. 
+3) Change your "www" to CNAME. 
 
-Change your IP/ADDRESS to username.github.io.
+4) Change your IP/ADDRESS to username.github.io.
 
 After you finish, wait 5-10 minutes for your changes to take effect.
 
