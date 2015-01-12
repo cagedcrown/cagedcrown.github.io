@@ -53,7 +53,7 @@ In Github, create a new repo that is an exact match of your username.
 In your index.html file type <code>Hello World!</code>
 
 <h4>Create a CNAME file</h4>
-Inside your CNAME file insert your domain name. You do not need to add the "http://" part.)
+Inside your CNAME file insert your domain name. You do not need to add the "http://" part.
 
 <figure>
     <img src="../../images/cname.png"></a>
