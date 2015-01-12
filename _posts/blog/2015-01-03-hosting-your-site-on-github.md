@@ -79,7 +79,7 @@ Inside your CNAME file insert your domain name. You do not need to add the "http
 
 Change @ to an <code>A Record</code> and IP/ADDRESS to Github's IP/ADDRESS: <code>192.30.252.153</code>
 
-3. Change www to <code>CNAME</code> and IP/ADDRESS to <code>USERNAME.github.io.</code>.
+Change www to <code>CNAME</code> and IP/ADDRESS to <code>USERNAME.github.io.</code>.
 
 <figure>
     <img src="../../images/manage_domain.png"></a>
