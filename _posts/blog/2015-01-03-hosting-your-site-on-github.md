@@ -25,7 +25,9 @@ In Github, create a new repo that is an exact match of your username.
     <img src="../../images/github_io.png"></a>
 </figure>
 
-<h4><code>git init</code> or <code>git clone</code></h4>
+<h4>git init or git clone</h4>
+
+**REMEMBER: you need to have a repo created on github before you can use <code>git remote add origin git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.</code>
 
 ...git init
 <pre>
