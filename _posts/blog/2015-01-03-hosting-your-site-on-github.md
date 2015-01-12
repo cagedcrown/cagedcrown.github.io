@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "Hosting your site on Github in 5 Minutes"
+title: "Hosting your site on Github in 10 Minutes or less"
 categories: blog
 date: 2015-01-11
 modified:
-excerpt: How to host your site on Github using a NameCheap domain name in 10 Minutes or less.
+excerpt: The quick and easy way to host your site on github Using a NameCheap domain name in 10 Minutes or less.
 tags: []
 image:
   feature: 
@@ -14,9 +14,8 @@ share: true
 comments: true
 ---
 
-
-
-## Create your github repo
+## Github
+<h4>Create your repo on Github</h4>
 
 Github allows every user to host their site for free. The only catch is that you have to create a repo that is YourUsername.github.io
 
@@ -24,7 +23,7 @@ Github allows every user to host their site for free. The only catch is that you
     <img src="../../images/github_io.png"></a>
 </figure>
 
-##Clone your repository
+<h4>Clone your repository</h4>
 
 Your repo has to be an exact match of your username.
 <pre>
@@ -33,11 +32,13 @@ Your repo has to be an exact match of your username.
     </code>
 </pre>
 
-Create an index.html
+<h4>Create an index.html</h4>
 
 In your index.html file type "Hello World!"
 
-Create a CNAME file. Inside your CNAME file type:
+<h4>Create a CNAME file</h4>
+Inside your CNAME file type:
+
 <code>
     yourdomainname.com # (you do not need to add the "http://" part)
 </code>
@@ -46,29 +47,28 @@ Create a CNAME file. Inside your CNAME file type:
     <img src="../../images/cname.png"></a>
 </figure>
 
-Git add, git commit, and git push your changes.
+<h4>Git add, git commit, and git push your changes.</h4>
 
 <pre>
     <code>
-git add .
-git commit -m "initial commit"
-git push origin master
+    git add .
+    git commit -m "initial commit"
+    git push origin master
     </code>
 </pre>
 Check out yourusername.github.io site
 
-## Namecheap
-In NameCheap.com go to "Manage Domains > All Host Records"
+##Namecheap
+
+If you have not already bought a domain name. Buy one on <a href="https://namecheap.com">Namecheap.com</a>
+
+<h4>After you are finished go to "Manage Domains > All Host Records"</h4>
 
 <figure>
     <img src="../../images/all_host_records.png"></a>
 </figure>
 
-Modify your domain name settings
-
-<figure>
-    <img src="../../images/manage_domain.png"></a>
-</figure>
+<h4>Modify your domain name settings</h4>
 
 1) Change your @hostname to an A Record. 
 
@@ -78,7 +78,11 @@ Modify your domain name settings
 
 4) Change your IP/ADDRESS to username.github.io.
 
-After you finish, wait 5-10 minutes for your changes to take effect.
+<figure>
+    <img src="../../images/manage_domain.png"></a>
+</figure>
+
+<h4>After you finish, wait 5-10 minutes for your changes to take effect.</h4>
 
 <br>
 Thanks for reading! 
