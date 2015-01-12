@@ -15,11 +15,11 @@ comments: true
 ---
 
 ## Github
-<h4>Create your repo on Github</h4>
+<h4>Create your repository</h4>
 
-Github allows every user to host their site for free. The only catch is that you have to create a repo that is YourUsername.github.io
+Github allows every user to host their site for free. The only catch is that you have to create a repo that is YOUR-USERNAME.github.io
 
-In Github, create a new repo that is an exact match of your username.
+Create a new repo that is an exact match of your username.
 
 <figure>
     <img src="../../images/github_io.png"></a>
@@ -79,13 +79,13 @@ If you have not already bought a domain name. Purchase one at <a href="https://n
 
 <h4>Modify your domain name settings</h4>
 
-1. Change your @hostname to an A Record. 
+1. Change your IP/ADDRESS to github's: <code>192.30.252.153</code>
 
-2. Change your IP/ADDRESS to github's: <code>192.30.252.153</code>
+2. Change your @hostname to an <code>A Record</code>. 
 
-3. Change your "www" to CNAME. 
+3. Change your "www" to <code>CNAME</code>. 
 
-4. Change your IP/ADDRESS to username.github.io.
+4. Change your IP/ADDRESS to <code>YOUR-USERNAME.github.io.</code>.
 
 <figure>
     <img src="../../images/manage_domain.png"></a>
