@@ -7,7 +7,7 @@ modified:
 excerpt: The quick and easy way to host your site on github using a NameCheap domain name.
 tags: []
 image:
-  feature: github_hosting_1024x512.jpg
+  feature: 
   teaser: github_hosting_400x250.jpg
   thumb:
 share: true
