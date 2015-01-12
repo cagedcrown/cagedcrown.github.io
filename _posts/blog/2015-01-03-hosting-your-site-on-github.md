@@ -19,19 +19,32 @@ comments: true
 
 Github allows every user to host their site for free. The only catch is that you have to create a repo that is YourUsername.github.io
 
+In Github, create a new repo that is an exact match of your username.
+
 <figure>
     <img src="../../images/github_io.png"></a>
 </figure>
 
-<h4>Clone your repository</h4>
+<h4><code>git init</code> or <code>git clone</code></h4>
 
-Your repo has to be an exact match of your username.
+...git init
 <pre>
     <code>
-    git clone git@github.com:username/username.github.io.git
+    touch README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git remote add origin git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.git
+    git push -u origin master
     </code>
 </pre>
-
+...or git clone
+<pre>
+    <code>
+    git remote add origin git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.git
+    git push -u origin master
+    </code>
+</pre>
 <h4>Create an index.html</h4>
 
 In your index.html file type <code>Hello World!</code>
