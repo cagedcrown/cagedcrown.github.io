@@ -52,7 +52,7 @@ Inside your CNAME file insert your domain name. You do not need to add the "http
     git push -u origin master
     </code>
 </pre>
-##Login to Namecheap
+## Login to Namecheap
 
 If you have not already bought a domain name. Purchase one at <a href="https://namecheap.com">Namecheap.com</a>
 
@@ -76,7 +76,7 @@ If you have not already bought a domain name. Purchase one at <a href="https://n
     <img src="../../images/manage_domain.png"></a>
 </figure>
 
-After your changes are saved, wait 5-10 minutes for yourdoaminname.com to be hosted on github.
+After your changes are saved, wait 5-10 minutes for yourdomainname.com to be hosted on github.
 
 <br>
 Thanks for reading! 
