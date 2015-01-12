@@ -26,12 +26,15 @@ Github allows every user to host their site for free. The only catch is that you
 <h4>Clone your repository</h4>
 
 Your repo has to be an exact match of your username.
-```
-    git clone git@github.com:username/username.github.io.git
-```
 
 <h4>Create an index.html</h4>
+<pre>
+    <code>
 
+    git clone git@github.com:username/username.github.io.git
+
+    </code>
+</pre>
 In your index.html file type "Hello World!"
 
 <h4>Create a CNAME file</h4>
@@ -45,9 +48,11 @@ Inside your CNAME file type yourdomainname.com (you do not need to add the "http
 
 <pre>
     <code>
+
     git add .
     git commit -m "initial commit"
-    git push origin master
+    git push -u origin master
+
     </code>
 </pre>
 Check out yourusername.github.io site
@@ -66,7 +71,7 @@ If you have not already bought a domain name. Buy one on <a href="https://namech
 
 1. Change your @hostname to an A Record. 
 
-2. Change your IP/ADDRESS to github's: 192.30.252.153
+2. Change your IP/ADDRESS to github's: <pre><code>192.30.252.153</code></pre>
 
 3. Change your "www" to CNAME. 
 
