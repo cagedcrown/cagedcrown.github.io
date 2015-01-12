@@ -39,13 +39,9 @@ Your repo has to be an exact match of your username.
 In your index.html file type "Hello World!"
 
 ##Create a CNAME file
-<pre>
-    <code>
-touch CNAME
-    </code>
-</pre>
-<pre>
-    <code>
+    {% raw %}
+    touch CNAME
+    {% endraw %}
 yourdomainname.com (you do not need to add the "http://" part)
     </code>
 </pre>
@@ -75,11 +71,14 @@ In NameCheap.com go to "Manage Domains > All Host Records"
 <figure>
     <img src="../../images/manage_domain.png"></a>
 </figure>
-##Change your @hostname to an A Record. Change your IP/ADDRESS to:
 
-192.30.252.153
+##Change your @hostname to an A Record. 
 
-##Change your "www" to CNAME. Change your IP/ADDRESS to username.github.io.
+Change your IP/ADDRESS to: 192.30.252.153
+
+##Change your "www" to CNAME. 
+
+Change your IP/ADDRESS to username.github.io.
 
 After you finish, wait 5-10 minutes for your changes to take effect.
 
