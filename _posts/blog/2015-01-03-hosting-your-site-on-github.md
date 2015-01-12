@@ -26,15 +26,14 @@ Github allows every user to host their site for free. The only catch is that you
 <h4>Clone your repository</h4>
 
 Your repo has to be an exact match of your username.
-
-<h4>Create an index.html</h4>
 <pre>
     <code>
-
     git clone git@github.com:username/username.github.io.git
-
     </code>
 </pre>
+
+<h4>Create an index.html</h4>
+
 In your index.html file type "Hello World!"
 
 <h4>Create a CNAME file</h4>
