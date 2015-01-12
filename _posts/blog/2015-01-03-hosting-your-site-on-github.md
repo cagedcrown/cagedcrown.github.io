@@ -16,14 +16,15 @@ comments: true
 
 
 ##Github
-### Create your github repo
+-Create your github repo
 
 Github allows every user to host their site for free. The only catch is that you have to create a repo that is <YourUsername>.github.io
 
 <figure>
     <img src="../../images/github_io.png"></a>
 </figure>
-### Clone your repository
+
+-Clone your repository
 
 Your repo has to be an exact match of your username.
 <pre>
@@ -32,13 +33,11 @@ Your repo has to be an exact match of your username.
     </code>
 </pre>
 
-### Create an index.html
-<pre>
-    <code>
-   <h1>Hello World!</h1>
-    </code>
-</pre>
-### Create a CNAME file
+-Create an index.html
+
+In your index.html file type "Hello World!"
+
+-Create a CNAME file
 <pre>
     <code>
 touch CNAME
@@ -53,7 +52,7 @@ yourdomainname.com (you do not need to add the "http://" part)
     <img src="../../images/cname.png"></a>
 </figure>
 
-### Git add, git commit, and git push your changes.
+-Git add, git commit, and git push your changes.
 <pre>
     <code>
 git add .
@@ -61,35 +60,27 @@ git commit -m "initial commit"
 git push origin master
     </code>
 </pre>
-### Check out <yourUsername>github.io site
+Check out yourusername.github.io site
 
 ## NameCheap
-### Manage Domains > All Host Records
+Manage Domains > All Host Records
 
 <figure>
     <img src="../../images/all_host_records.png"></a>
 </figure>
 
-### Modify your domain name settings
+-Modify your domain name settings
 
 <figure>
     <img src="../../images/manage_domain.png"></a>
 </figure>
-Change your @hostname to an A Record. Change your IP/ADDRESS to:
-<pre>
-    <code>
+-Change your @hostname to an A Record. Change your IP/ADDRESS to:
+
 192.30.252.153
-    </code>
-</pre>
-Change your www to CNAME. Change your IP/ADDRESS to username.github.io.
-<pre>
-    <code>
-username.github.io.
-    </code>
-</pre>
+
+-Change your www to CNAME. Change your IP/ADDRESS to username.github.io.
+
 ## After you finish, wait 10 minutes for your changes to take effect.
-
-
 
 <br>
 Thanks for reading! 
