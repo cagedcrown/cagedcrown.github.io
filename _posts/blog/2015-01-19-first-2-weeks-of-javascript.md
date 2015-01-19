@@ -35,6 +35,8 @@ The workshop was a great experience overall and laid a strong foundation for lea
 
 For the first 7 weeks of the immersive program, we did everything in Ruby and Ruby on Rails. So now that the program is going to be more front-end focused for a while, it was interesting to see the reactions of my fellow classmates comparing the similaraties and differences between javascript and ruby. Some of my classmates who loved ruby, hated the javascript syntax. Those who didnt really understand ruby, loved how you have to be explicit in javascript, so you end up knowing exactly whats going on... (most of the time)
 
+[Syntax Comparison between JavaScript & Ruby](http://agentcooper.github.io/js-ruby-comparison/)
+
 ### CodePen Meetup
 
 <blockquote class="twitter-tweet" lang="en"><p>Had a great time at the <a href="https://twitter.com/CodePen">@CodePen</a> meetup. Shoutout to <a href="https://twitter.com/recursivefunk">@recursivefunk</a> and <a href="https://twitter.com/EliFitch">@EliFitch</a> for being awesome dudes.</p>&mdash; Mo Líndo (@cagedcrown) <a href="https://twitter.com/cagedcrown/status/555896779338940416">January 16, 2015</a></blockquote>
