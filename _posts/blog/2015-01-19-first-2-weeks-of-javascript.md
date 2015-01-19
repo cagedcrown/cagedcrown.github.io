@@ -16,7 +16,7 @@ comments: true
 
 ### It's not Java
 
-About 3 years ago, I made the made mistake of saying that I wanted to learn Java one day. I thought Java was short for JavaScript, but I was young and foolish. Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... to a degree it's not their fault.
+About 3 years ago, I made the made mistake of saying that I wanted to learn Java. I thought Java was short for JavaScript, but I was young and foolish. Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... to a degree it's not their fault.
 
 ### JavaScript Weekend Workshop
 
