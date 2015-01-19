@@ -14,16 +14,16 @@ share: true
 comments: true
 ---
 
-### For the love of God, it's not Java
+### It's not Java
 
-Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... to a degree it's not their fault.
+About 3 years ago, I made the made mistake of saying that I wanted to learn Java one day. I thought Java was short for JavaScript, but I was young and foolish. Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... to a degree it's not their fault.
 
 ### JavaScript Weekend Workshop
 
 <blockquote class="twitter-tweet" lang="en"><p>Because of the javascript workshop last weekend, I&#39;ve been <a href="https://twitter.com/GA_DC">@GA_DC</a> for 12 days straight. I practically live here. <a href="https://twitter.com/hashtag/dctech?src=hash">#dctech</a> <a href="https://twitter.com/hashtag/wdidc4?src=hash">#wdidc4</a></p>&mdash; Mo Líndo (@cagedcrown) <a href="https://twitter.com/cagedcrown/status/556133621980200960">January 16, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I decided to do a really crazy thing last weekend, and that was to take a weekend bootcamp while I'm already in a 12-week bootcamp. Javascript is everywhere and I couldn't miss the opportunity to get a head start on one of the most powerful languages out there.
+I decided to do a really crazy thing last weekend, and that was to take a weekend bootcamp while I was already in a 12-week bootcamp. Javascript is everywhere and I couldn't miss the opportunity to get a head start on one of the most powerful languages out there.
 
 <figure>
     <img src="../../images/js_workshop.png"></a>
