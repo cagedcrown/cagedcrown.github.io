@@ -24,38 +24,11 @@ Non-programmers don't really know any better when it comes to Java and JavaScrip
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I decided to do a really crazy thing last weekend, and that was to take a weekend bootcamp while I'm already in a 12-week bootcamp. Javascript is everywhere and I couldn't miss the opportunity to get a head start on one of the most powerful languages out there.
-<code>
-Saturday - Morning
-• Introduction
-• JavaScript Fundamentals
-• Datatypes
-• Variables
-• Conditionals
-• Arrays & Objects
-• Enumeration
 
-Saturday - Afternoon
-• Simple Functions
-• Intro to DOM
-• Selecting elements
-• Reading and writing data
-• Binding event handlers
-• Lab exercises
+<figure>
+    <img src="../../images/js_workshop.png"></a>
+</figure>
 
-Sunday - Morning
-• Introduction
-• Part 1: Basic Functions
-• Arguments & Return
-• Invocation vs. Reference
-• Declaration vs. Assignment
-• Functions as first-class objects
-• Part 2: Closure & Scope
-• Part 3: Contextual Invocation ("this")
-
-Sunday - Afternoon
-• Lesson practice (scope & "this")
-• Lab exercises
-</code>
 The workshop was a great experience overall and layed a great foundation for learning javascript the 'right' way. 
 
 ### Javascript Week (JavaScript vs Ruby)
@@ -78,22 +51,22 @@ The first ever CodePen DC meetup took place at Nclud, a creative design agency i
 I still don't entirely understand the advanced/intermediate parts of javascript regarding callbacks and functions inside of functions inside of functions (functionception). From what I've been told, this is what seperates javascript from the other languages and I am eager to go down the rabbit hole. 
 
 ### Best javascript resources that I have found... so far
-• [JavaScript: The good parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+- [JavaScript: The good parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 
-• [Eloquent Javascript](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=pd_sim_b_4?ie=UTF8&refRID=0QNKHK6V8XTF64SSG3S6)
+- [Eloquent Javascript](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=pd_sim_b_4?ie=UTF8&refRID=0QNKHK6V8XTF64SSG3S6)
 
-• [JavaScript & jQuery, by John Duckett](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
+- [JavaScript & jQuery, by John Duckett](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
 
-• [CodeSchool: Javascript course](https://www.codeschool.com/paths/javascript)
+- [CodeSchool: Javascript course](https://www.codeschool.com/paths/javascript)
 
-• [JavaScript & jQuery, by The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
+- [JavaScript & jQuery, by The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
 
-• [Node.js](http://nodejs.org/)
+- [Node.js](http://nodejs.org/)
 
-• [Express.js](http://expressjs.com/)
+- [Express.js](http://expressjs.com/)
 
-• [Meteor.js](https://www.meteor.com/)
+- [Meteor.js](https://www.meteor.com/)
 
-• [GitHub Trending JavaScript Repo's](https://github.com/trending?l=javascript)
+- [GitHub Trending JavaScript Repo's](https://github.com/trending?l=javascript)
 
 
