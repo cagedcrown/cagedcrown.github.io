@@ -7,16 +7,16 @@ modified:
 excerpt: A bootcamp inside of a bootcamp & a CodePen meetup.
 tags: []
 image:
-  feature: 
+  feature: JavaScript_Netflix_1024x512.jpg
   teaser: JavaScript_Netflix_400x250.jpg
-  thumb: JavaScript_Netflix_1024x512.jpg
+  thumb: 
 share: true
 comments: true
 ---
 
 ### For the love of God, it's not Java
 
-Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... too a degree it's not their fault.
+Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... to a degree it's not their fault.
 
 ### JavaScript Weekend Workshop
 
@@ -29,7 +29,7 @@ I decided to do a really crazy thing last weekend, and that was to take a weeken
     <img src="../../images/js_workshop.png"></a>
 </figure>
 
-The workshop was a great experience overall and layed a great foundation for learning javascript the 'right' way. 
+The workshop was a great experience overall and laid a strong foundation for learning javascript the 'right' way. 
 
 ### Javascript Week (JavaScript vs Ruby)
 
@@ -40,7 +40,7 @@ For the first 7 weeks of the immersive program, we did everything in Ruby and Ru
 <blockquote class="twitter-tweet" lang="en"><p>Had a great time at the <a href="https://twitter.com/CodePen">@CodePen</a> meetup. Shoutout to <a href="https://twitter.com/recursivefunk">@recursivefunk</a> and <a href="https://twitter.com/EliFitch">@EliFitch</a> for being awesome dudes.</p>&mdash; Mo Líndo (@cagedcrown) <a href="https://twitter.com/cagedcrown/status/555896779338940416">January 16, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The first ever CodePen DC meetup took place at Nclud, a creative design agency in Washington, DC, which was only a few blocks away from General Assembly. There was pizza, beer, and a lot of cool people showing off their CodePen projects. To be honest, a lot of the stuff went over my head, but I really enjoyed meeting and talking to professional developers. It's always inspiring seeing pro developers because they were in my shoes at one point. The DC tech scene is very friendly and welcoming, and I plan on being an active member in the community.
+The first ever CodePen DC meetup took place at Nclud, a creative design agency in Washington, DC, which was only a few blocks away from General Assembly. There was pizza, beer, and a lot of cool people showing off their CodePen projects. To be honest, a lot of the stuff went over my head, but I really enjoyed meeting and talking to professional developers. It's always inspiring seeing pro developers in action because they were in my shoes at one point. The DC tech scene is very friendly and welcoming, and I plan on being an active member in the community.
 
 ### It's only the tip of the iceburg
 
