@@ -31,7 +31,7 @@ I decided to do a really crazy thing last weekend, and that was to take a weeken
 
 The workshop was a great experience overall and laid a strong foundation for learning javascript the 'right' way. 
 
-### Javascript Week (JavaScript vs Ruby)
+### JavaScript vs Ruby
 
 For the first 7 weeks of the immersive program, we did everything in Ruby and Ruby on Rails. So now that the program is going to be more front-end focused for a while, it was interesting to see the reactions of my fellow classmates comparing the similaraties and differences between javascript and ruby. Some of my classmates who loved ruby, hated the javascript syntax. Those who didnt really understand ruby, loved how you have to be explicit in javascript, so you end up knowing exactly whats going on... (most of the time)
 
@@ -42,7 +42,7 @@ For the first 7 weeks of the immersive program, we did everything in Ruby and Ru
 
 The first ever CodePen DC meetup took place at Nclud, a creative design agency in Washington, DC, which was only a few blocks away from General Assembly. There was pizza, beer, and a lot of cool people showing off their CodePen projects. To be honest, a lot of the stuff went over my head, but I really enjoyed meeting and talking to professional developers. It's always inspiring seeing pro developers in action because they were in my shoes at one point. The DC tech scene is very friendly and welcoming, and I plan on being an active member in the community.
 
-### It's only the tip of the iceburg
+### Only the tip of the iceburg
 
 <figure>
     <img src="../../images/javascript.png"></a>
@@ -55,11 +55,11 @@ I still don't entirely understand the advanced/intermediate parts of javascript 
 
 - [Eloquent Javascript](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=pd_sim_b_4?ie=UTF8&refRID=0QNKHK6V8XTF64SSG3S6)
 
-- [JavaScript & jQuery, by John Duckett](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
+- [JavaScript & jQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
 
-- [CodeSchool: Javascript course](https://www.codeschool.com/paths/javascript)
+- [CodeSchool: Javascript Path](https://www.codeschool.com/paths/javascript)
 
-- [JavaScript & jQuery, by The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
+- [JavaScript & jQuery: The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
 
 - [Node.js](http://nodejs.org/)
 
