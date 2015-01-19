@@ -1,0 +1,91 @@
+---
+layout: article
+title: "My first 2 weeks of binge learning JavaScript"
+categories: blog
+date: 2015-01-19
+modified:
+excerpt: A bootcamp inside of a bootcamp & a CodePen meetup.
+tags: []
+image:
+  feature: 
+  teaser: JavaScript_Netflix_400x250.jpg
+  thumb: JavaScript_Netflix_1024x512.jpg
+share: true
+comments: true
+---
+
+### For the love of God, it's not Java
+
+Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... too a degree it's not their fault.
+
+### JavaScript Weekend Workshop
+
+<blockquote class="twitter-tweet" lang="en"><p>Because of the javascript workshop last weekend, I&#39;ve been <a href="https://twitter.com/GA_DC">@GA_DC</a> for 12 days straight. I practically live here. <a href="https://twitter.com/hashtag/dctech?src=hash">#dctech</a> <a href="https://twitter.com/hashtag/wdidc4?src=hash">#wdidc4</a></p>&mdash; Mo Líndo (@cagedcrown) <a href="https://twitter.com/cagedcrown/status/556133621980200960">January 16, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I decided to do a really crazy thing last weekend, and that was to take a weekend bootcamp while I'm already in a 12-week bootcamp. Javascript is everywhere and I couldn't miss the opportunity to get a head start on one of the most powerful languages out there.
+
+Saturday - Morning
+• Introduction
+• JavaScript Fundamentals
+• Datatypes
+• Variables
+• Conditionals
+• Arrays & Objects
+• Enumeration
+
+Saturday - Afternoon
+• Simple Functions
+• Intro to DOM
+• Selecting elements
+• Reading and writing data
+• Binding event handlers
+• Lab exercises
+
+Sunday - Morning
+• Introduction
+• Part 1: Basic Functions
+• Arguments & Return
+• Invocation vs. Reference
+• Declaration vs. Assignment
+• Functions as first-class objects
+• Part 2: Closure & Scope
+• Part 3: Contextual Invocation ("this")
+
+Sunday - Afternoon
+• Lesson practice (scope & "this")
+• Lab exercises
+
+The workshop was a great experience overall and layed a great foundation for learning javascript the 'right' way. 
+
+### Javascript Week (JavaScript vs Ruby)
+
+For the first 7 weeks of the immersive program, we did everything in Ruby and Ruby on Rails. So now that the program is going to be more front-end focused for a while, it was interesting to see the reactions of my fellow classmates comparing the similaraties and differences between javascript and ruby. Some of my classmates who loved ruby, hated the javascript syntax. Those who didnt really understand ruby, loved how you have to be explicit in javascript, so you end up knowing exactly whats going on... (most of the time)
+
+### CodePen Meetup
+
+<blockquote class="twitter-tweet" lang="en"><p>Had a great time at the <a href="https://twitter.com/CodePen">@CodePen</a> meetup. Shoutout to <a href="https://twitter.com/recursivefunk">@recursivefunk</a> and <a href="https://twitter.com/EliFitch">@EliFitch</a> for being awesome dudes.</p>&mdash; Mo Líndo (@cagedcrown) <a href="https://twitter.com/cagedcrown/status/555896779338940416">January 16, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The first ever CodePen DC meetup took place at Nclud, a creative design agency in Washington, DC, which was only a few blocks away from General Assembly. There was pizza, beer, and a lot of cool people showing off their CodePen projects. To be honest, a lot of the stuff went over my head, but I really enjoyed meeting and talking to professional developers. It's always inspiring seeing pro developers because they were in my shoes at one point. The DC tech scene is very friendly and welcoming, and I plan on being an active member in the community.
+
+### It's only the tip of the iceburg
+
+<figure>
+    <img src="../../images/javascript.png"></a>
+</figure>
+
+I still don't entirely understand the advanced/intermediate parts of javascript regarding callbacks and functions inside of functions inside of functions (functionception). From what I've been told, this is what seperates javascript from the other languages and I am eager to go down the rabbit hole. 
+
+### Best javascript resources that I have found... so far
+• [JavaScript: The good parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+• [Eloquent Javascript](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=pd_sim_b_4?ie=UTF8&refRID=0QNKHK6V8XTF64SSG3S6)
+• [JavaScript & jQuery, by John Duckett](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
+• [CodeSchool: Javascript course](https://www.codeschool.com/paths/javascript)
+• [JavaScript & jQuery, by The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
+• [Node.js](http://nodejs.org/)
+• [Express.js](http://expressjs.com/)
+• [Meteor.js](https://www.meteor.com/)
+• [GitHub Trending JavaScript Repo's](https://github.com/trending?l=javascript)
+
+
