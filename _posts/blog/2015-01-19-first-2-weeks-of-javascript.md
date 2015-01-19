@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "My first 2 weeks of binge learning JavaScript"
+title: "My review of JavaScript after binge learning for 2 weeks"
 categories: blog
 date: 2015-01-19
 modified:
