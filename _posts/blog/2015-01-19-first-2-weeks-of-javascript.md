@@ -24,7 +24,7 @@ Non-programmers don't really know any better when it comes to Java and JavaScrip
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I decided to do a really crazy thing last weekend, and that was to take a weekend bootcamp while I'm already in a 12-week bootcamp. Javascript is everywhere and I couldn't miss the opportunity to get a head start on one of the most powerful languages out there.
-
+<code>
 Saturday - Morning
 • Introduction
 • JavaScript Fundamentals
@@ -55,7 +55,7 @@ Sunday - Morning
 Sunday - Afternoon
 • Lesson practice (scope & "this")
 • Lab exercises
-
+</code>
 The workshop was a great experience overall and layed a great foundation for learning javascript the 'right' way. 
 
 ### Javascript Week (JavaScript vs Ruby)
@@ -79,13 +79,21 @@ I still don't entirely understand the advanced/intermediate parts of javascript 
 
 ### Best javascript resources that I have found... so far
 • [JavaScript: The good parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+
 • [Eloquent Javascript](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=pd_sim_b_4?ie=UTF8&refRID=0QNKHK6V8XTF64SSG3S6)
+
 • [JavaScript & jQuery, by John Duckett](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
+
 • [CodeSchool: Javascript course](https://www.codeschool.com/paths/javascript)
+
 • [JavaScript & jQuery, by The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
+
 • [Node.js](http://nodejs.org/)
+
 • [Express.js](http://expressjs.com/)
+
 • [Meteor.js](https://www.meteor.com/)
+
 • [GitHub Trending JavaScript Repo's](https://github.com/trending?l=javascript)
 
 
