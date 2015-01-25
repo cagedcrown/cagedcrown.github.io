@@ -3,12 +3,13 @@ layout: archive
 title: "Videos"
 date: 2015-01-03
 modified:
-excerpt: "A collection of screencasts and short animated videos"
+excerpt: 
 tags: []
 image:
   feature: 
   teaser: 
 ---
+A collection of screencasts and short animated videos.
 
 <div class="tiles">
 {% for post in site.categories.videos %}

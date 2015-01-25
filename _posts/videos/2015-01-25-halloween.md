@@ -4,7 +4,7 @@ title: "Halloween Animation"
 categories: videos
 date: 2015-01-25
 modified:
-excerpt: Short Halloween Animation
+excerpt: 
 tags: []
 image:
   feature: 
