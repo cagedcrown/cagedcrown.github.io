@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: archive
 title: "Halloween Animation"
 categories: videos
 date: 2015-01-25
