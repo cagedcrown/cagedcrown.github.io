@@ -17,6 +17,7 @@ comments: true
 <iframe src="//player.vimeo.com/video/88984155" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Created using:
+
 * Adobe After Effects
 * Adobe Photoshop
 * Adobe Audition
