@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: article
 title: "Halloween Animation"
 categories: videos
 date: 2015-01-25
