@@ -9,7 +9,7 @@ image:
   feature: 
   teaser: 
 ---
-A collection of projects & experiments.
+A collection of web developement projects & experiments.
 
 <div class="tiles">
 {% for post in site.categories.work %}
