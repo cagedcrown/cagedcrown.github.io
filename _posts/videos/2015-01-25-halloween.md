@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: media
 title: "Halloween Animation"
 categories: videos
 date: 2015-01-25
