@@ -6,7 +6,7 @@ modified:
 excerpt:
 share: false
 image:
-  feature: mo_headshot_circle.png
+  feature: 
   teaser:
   thumb:
 ---
