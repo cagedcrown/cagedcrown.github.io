@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: archive
 title: "My review of JavaScript after binge learning for 2 weeks"
 categories: blog
 date: 2015-01-19
@@ -9,7 +9,7 @@ tags: []
 image:
   feature: JavaScript_Netflix_1024x512.jpg
   teaser: JavaScript_Netflix_400x250.jpg
-  thumb: 
+  thumb:
 share: true
 comments: true
 ---
@@ -29,7 +29,7 @@ I decided to do a really crazy thing last weekend, and that was to take a weeken
     <img src="../../images/js_workshop.png"></a>
 </figure>
 
-The workshop was a great experience overall and laid a strong foundation for learning javascript the 'right' way. 
+The workshop was a great experience overall and laid a strong foundation for learning javascript the 'right' way.
 
 ### JavaScript vs Ruby
 
@@ -50,7 +50,7 @@ The first ever CodePen DC meetup took place at Nclud, a creative design agency i
     <img src="../../images/javascript.png"></a>
 </figure>
 
-I still don't entirely understand the advanced/intermediate parts of javascript regarding callbacks and functions inside of functions inside of functions (functionception). From what I've been told, this is what seperates javascript from the other languages and I am eager to go down the rabbit hole. 
+I still don't entirely understand the advanced/intermediate parts of javascript regarding callbacks and functions inside of functions inside of functions (functionception). From what I've been told, this is what seperates javascript from the other languages and I am eager to go down the rabbit hole.
 
 ### Best javascript resources that I have found... so far
 - [JavaScript: The good parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
@@ -70,5 +70,3 @@ I still don't entirely understand the advanced/intermediate parts of javascript 
 - [Meteor.js](https://www.meteor.com/)
 
 - [GitHub Trending JavaScript Repo's](https://github.com/trending?l=javascript)
-
-
