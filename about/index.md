@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "About Me"
+title: "About"
 date: 2015-01-03
 modified:
 excerpt:
