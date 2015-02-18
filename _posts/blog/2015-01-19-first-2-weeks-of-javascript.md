@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: article
 title: "My review of JavaScript after binge learning for 2 weeks"
 categories: blog
 date: 2015-01-19
