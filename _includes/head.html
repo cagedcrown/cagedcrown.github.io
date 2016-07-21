@@ -1,0 +1,44 @@
+{% assign pagetitle = site.title %}
+{% if page.title %}
+  {% assign pagetitle = page.title %}
+{% endif %}
+
+{% assign pagedescription = site.description %}
+{% if page.description %}
+  {% assign pagedescription = page.description %}
+{% endif %}
+
+{% assign pageurl = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
+{% assign twitterImage = site.twitter.image %}
+{% if page.twitter.image %}
+  {% assign twitterImage = page.twitter.image %}
+{% endif %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ pagetitle }}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="{{ site.description }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@cagedcrown">
+  <meta name="twitter:title" content="{{ pagetitle }}">
+  <meta name="twitter:description" content="{{ pagedescription }}">
+  <meta name="twitter:image:src" content="{{ twitterImage }}">
+  <meta name="twitter:url" content="{{ pageurl }}" />
+
+  <link rel="canonical" href="{{ pageurl }}">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <!-- Custom CSS -->
+  <style type="text/css">
+    {% capture include_to_scssify %}{% include main.scss %}{% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+  {% if page.scripts %}
+    {% for script in page.scripts %}
+      <script src="{{ script }}"></script>
+    {% endfor %}
+  {% endif %}
+</head>
