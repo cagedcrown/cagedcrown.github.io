@@ -16,11 +16,13 @@ About 3 years ago, I made the made mistake of saying that I wanted to learn Java
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I decided to do a really crazy thing last weekend, and that was to take a weekend bootcamp while I was already in a 12-week bootcamp. Javascript is everywhere and I couldn't miss the opportunity to get a head start on one of the most powerful languages out there.
+
 ```
 <figure>
     <img src="../../images/js_workshop.png"></a>
 </figure>
 ```
+
 The workshop was a great experience overall and laid a strong foundation for learning javascript the 'right' way.
 
 ### JavaScript vs Ruby
@@ -45,20 +47,21 @@ The first ever CodePen DC meetup took place at Nclud, a creative design agency i
 I still don't entirely understand the advanced/intermediate parts of javascript regarding callbacks and functions inside of functions inside of functions (functionception). From what I've been told, this is what seperates javascript from the other languages and I am eager to go down the rabbit hole.
 
 ### Best javascript resources that I have found... so far
-- [JavaScript: The good parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 
-- [Eloquent Javascript](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=pd_sim_b_4?ie=UTF8&refRID=0QNKHK6V8XTF64SSG3S6)
+* [JavaScript: The good parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 
-- [JavaScript & jQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
+* [Eloquent Javascript](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=pd_sim_b_4?ie=UTF8&refRID=0QNKHK6V8XTF64SSG3S6)
 
-- [CodeSchool: Javascript Path](https://www.codeschool.com/paths/javascript)
+* [JavaScript & jQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1421682683&sr=1-1&keywords=jon+duckett+javascript+%26+jquery+interactive+front-end+web+development)
 
-- [JavaScript & jQuery: The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
+* [CodeSchool: Javascript Path](https://www.codeschool.com/paths/javascript)
 
-- [Node.js](http://nodejs.org/)
+* [JavaScript & jQuery: The Odin Project](http://www.theodinproject.com/javascript-and-jquery)
 
-- [Express.js](http://expressjs.com/)
+* [Node.js](http://nodejs.org/)
 
-- [Meteor.js](https://www.meteor.com/)
+* [Express.js](http://expressjs.com/)
 
-- [GitHub Trending JavaScript Repo's](https://github.com/trending?l=javascript)
+* [Meteor.js](https://www.meteor.com/)
+
+* [GitHub Trending JavaScript Repo's](https://github.com/trending?l=javascript)

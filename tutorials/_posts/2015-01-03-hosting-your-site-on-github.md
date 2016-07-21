@@ -7,6 +7,7 @@ articleclass: left
 ---
 
 ## Github
+
 <h4>Create your unique repository</h4>
 
 Github allows every user to host their site for free. The only catch is that you have to create a repo that is USERNAME.github.io
@@ -20,6 +21,7 @@ Create a new repo that is an exact match of your username.
 <h4>git init or git clone</h4>
 
 ...git init
+
 ```
 <pre>
     <code>
@@ -32,6 +34,7 @@ Create a new repo that is an exact match of your username.
     </code>
 </pre>
 ```
+
 ```
 ...or git clone
 <pre>
@@ -41,6 +44,7 @@ Create a new repo that is an exact match of your username.
     </code>
 </pre>
 ```
+
 *REMEMBER: you need to have a repo created on github before you can use* <code>git remote add origin git@github.com:USERNAME/USERNAME.github.io.</code>
 
 <h4>Create an index.html</h4>
