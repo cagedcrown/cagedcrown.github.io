@@ -116,8 +116,26 @@ body {
   }
 }
 
+.name-intro {
+  margin-bottom: 2em;
+}
+
+.header-links {
+  a.about-me, a.suggested {
+    text-align: center;
+    padding: 20px 20px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    &:hover {
+      color: $secondary-accent;
+    }
+  }
+}
+
 .social-links {
   text-align: center;
+  margin-top: 1.5em;
   ul {
     list-style: none;
   }
@@ -232,13 +250,7 @@ body {
   }
 }
 
-.about-link {
-  text-align: center;
-  padding: 20px 20px 0;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-}
+
 
 .image {
   line-height: 0;
@@ -252,6 +264,9 @@ body {
   padding-bottom: 30px;
 }
 
+::selection {
+  background-color: #fff200;
+}
 @media only screen and (min-width: 900px) {
   body {
     padding: 0 0 0 300px;
