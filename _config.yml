@@ -1,0 +1,51 @@
+# Site settings
+title: CagedCrown
+email: mo@cagedcrown.com
+logo: /img/logo.svg
+author:
+  name: Maury Lindo
+  uri: http://cagedcrown.com
+  twitter: cagedcrown
+description: "Thoughts and Ideas from Maury Lindo"
+twitter:
+  username: cagedcrown
+gems:
+  - jekyll-seo-tag
+  - jekyll-feed
+exclude:
+  - vendor
+  - Gemfile
+  - Rakefile
+  - README.md
+  - LICENSE
+  - CNAME
+baseurl: ""
+url: "http://cagedcrown.com"
+sass:
+  sass_dir: css
+  style: compressed
+
+# Build settings
+permalink: /:categories/:title/
+future: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        twitter: /img/twitter_card.png
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
