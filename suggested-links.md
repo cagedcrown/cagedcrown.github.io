@@ -5,4 +5,4 @@ permalink: /suggested-links/
 articleclass: left
 ---
 
-<img src="/img/soon_teaser.png">
+<img src="/img/soon_teaser.png" alt="Section coming soon">

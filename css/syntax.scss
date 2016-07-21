@@ -26,7 +26,10 @@ td.code {
   pre {
     overflow: auto;
     box-sizing: border-box;
-    padding: 30px 30px 30px 10px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
   }
 }
 
@@ -37,7 +40,10 @@ td.gutter {
 
 pre.lineno {
   background-color: #2f3132;
-  padding: 30px 10px 30px 0;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 0;
 }
 
 code.highlighter-rouge {

@@ -7,81 +7,72 @@ articleclass: left
 ---
 
 ## Github
-<h4>Create your unique repository</h4>
+
+### Create your unique repository
 
 Github allows every user to host their site for free. The only catch is that you have to create a repo that is USERNAME.github.io
 
 Create a new repo that is an exact match of your username.
 
-<figure>
-    <img src="../../images/github_io.png"></a>
-</figure>
+<img src="/img/github_io.png" alt="github">
 
-<h4>git init or git clone</h4>
+### git init or git clone
 
-...git init
+#### ...git init
+
 ```
-<pre>
-    <code>
-    touch README.md
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git remote add origin git@github.com:USERNAME/USERNAME.github.io.git
-    git push -u origin master
-    </code>
-</pre>
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:USERNAME/USERNAME.github.io.git
+git push -u origin master
 ```
+
+#### ...or git clone
+
 ```
-...or git clone
-<pre>
-    <code>
-    git remote add origin git@github.com:USERNAME/USERNAME.github.io.git
-    git push -u origin master
-    </code>
-</pre>
+git remote add origin git@github.com:USERNAME/USERNAME.github.io.git
+git push -u origin master
 ```
-*REMEMBER: you need to have a repo created on github before you can use* <code>git remote add origin git@github.com:USERNAME/USERNAME.github.io.</code>
 
-<h4>Create an index.html</h4>
+*REMEMBER: you need to have a repo created on github before you can use*
 
-In your index.html file type <code>Hello World!</code>
+```
+git remote add origin git@github.com:USERNAME/USERNAME.github.io.
+```
 
-<h4>Create a CNAME file</h4>
-Inside your CNAME file insert your domain name. You do not need to add the "http://" part.
+#### Create an index.html
 
-<figure>
-    <img src="../../images/cname.png"></a>
-</figure>
+In your `index.html` file type `Hello World!`
 
-<h4>Git add, git commit, and git push your changes.</h4>
-<pre>
-    <code>
-    git add .
-    git commit -m "your commit message"
-    git push origin master
-    </code>
-</pre>
-<h2>Namecheap</h2>
+#### Create a CNAME file
 
-<h4>Go to "Manage Domains > All Host Records"</h4>
+Inside your CNAME file insert your domain name.
 
-<figure>
-    <img src="../../images/all_host_records.png"></a>
-</figure>
+<img src="/img/cname.png" alt="cname">
 
-<h4>Modify your domain name settings</h4>
+#### Git add, git commit, and git push your changes
 
-Change @ to an <code>A Record</code> and IP/ADDRESS to Github's IP/ADDRESS: <code>192.30.252.153</code>
+```
+git add .
+git commit -m "your commit message"
+git push origin master
+```
 
-Change www to <code>CNAME</code> and IP/ADDRESS to <code>USERNAME.github.io.</code>.
+## Namecheap
 
-<figure>
-    <img src="../../images/manage_domain.png"></a>
-</figure>
+#### Go to "Manage Domains > All Host Records"
+
+<img src="/img/all_host_records.png" alt="host records">
+
+#### Modify your domain name settings
+
+Change @ to an `A Record` and IP/ADDRESS to Github's IP/ADDRESS: `192.30.252.153`.
+
+
+Change www to `CNAME` and IP/ADDRESS to `USERNAME.github.io.`.
+
+<img src="/img/manage_domain.png" alt="manage domain">
 
 After your changes are saved, wait 5-10 minutes for yourdomainname.com to be hosted on github.
-
-<br>
-Thanks for reading!
-Feel free to leave a comment.
