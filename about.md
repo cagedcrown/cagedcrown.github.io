@@ -10,4 +10,4 @@ Mo is a Software Engineer who has an eye for pixel perfection. After completing 
 
 <img src="/img/headshot.png">
 
-Feel free to check out my <a href="/resume/lindo.pdf" target="_blank">resumé</a> if that's wahat you're into.
+Feel free to check out my <a href="/resume/lindo.pdf" target="_blank">résumé</a> if that's wahat you're into.
