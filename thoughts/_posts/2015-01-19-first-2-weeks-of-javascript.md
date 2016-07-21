@@ -41,7 +41,7 @@ The first ever CodePen DC meetup took place at Nclud, a creative design agency i
 ### Only the tip of the iceburg
 
 <figure>
-    <img src="../../images/javascript.png"></a>
+    <img src="/img/javascript.png" alt="JavaScript"></a>
 </figure>
 
 I still don't entirely understand the advanced/intermediate parts of javascript regarding callbacks and functions inside of functions inside of functions (functionception). From what I've been told, this is what seperates javascript from the other languages and I am eager to go down the rabbit hole.

@@ -15,7 +15,7 @@ Github allows every user to host their site for free. The only catch is that you
 Create a new repo that is an exact match of your username.
 
 <figure>
-    <img src="../../images/github_io.png"></a>
+    <img src="/img/github_io.png" alt="github"></a>
 </figure>
 
 <h4>git init or git clone</h4>
@@ -55,7 +55,7 @@ In your index.html file type <code>Hello World!</code>
 Inside your CNAME file insert your domain name. You do not need to add the "http://" part.
 
 <figure>
-    <img src="../../images/cname.png"></a>
+    <img src="/img/cname.png" alt="cname"></a>
 </figure>
 
 <h4>Git add, git commit, and git push your changes.</h4>
@@ -71,7 +71,7 @@ Inside your CNAME file insert your domain name. You do not need to add the "http
 <h4>Go to "Manage Domains > All Host Records"</h4>
 
 <figure>
-    <img src="../../images/all_host_records.png"></a>
+    <img src="/img/all_host_records.png" alt="host records"></a>
 </figure>
 
 <h4>Modify your domain name settings</h4>
@@ -81,7 +81,7 @@ Change @ to an <code>A Record</code> and IP/ADDRESS to Github's IP/ADDRESS: <cod
 Change www to <code>CNAME</code> and IP/ADDRESS to <code>USERNAME.github.io.</code>.
 
 <figure>
-    <img src="../../images/manage_domain.png"></a>
+    <img src="/img/manage_domain.png" alt="manage domain"></a>
 </figure>
 
 After your changes are saved, wait 5-10 minutes for yourdomainname.com to be hosted on github.
