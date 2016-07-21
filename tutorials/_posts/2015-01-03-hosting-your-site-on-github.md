@@ -36,7 +36,7 @@ git remote add origin git@github.com:USERNAME/USERNAME.github.io.git
 git push -u origin master
 ```
 
-*REMEMBER: you need to have a repo created on github before you can use*
+#### REMEMBER: you need to have a repo created on github before you can use
 
 ```
 git remote add origin git@github.com:USERNAME/USERNAME.github.io.
@@ -62,14 +62,13 @@ git push origin master
 
 ## Namecheap
 
-#### Go to "Manage Domains > All Host Records"
+### Go to "Manage Domains > All Host Records"
 
 <img src="/img/all_host_records.png" alt="host records">
 
-#### Modify your domain name settings
+### Modify your domain name settings
 
 Change @ to an `A Record` and IP/ADDRESS to Github's IP/ADDRESS: `192.30.252.153`.
-
 
 Change www to `CNAME` and IP/ADDRESS to `USERNAME.github.io.`.
 
