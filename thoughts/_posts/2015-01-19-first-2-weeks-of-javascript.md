@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: header-image-post
 title:  "My review of JavaScript after binge learning for 2 weeks"
 date:   2015-01-19 10:21:23
+headerimg: /img/JavaScript_Netflix_1024x512.jpg
 articleclass: left
 ---
 
