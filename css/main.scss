@@ -81,6 +81,7 @@ body {
 .site-footer {
   bottom: 0;
   width: 100%;
+  border-bottom: 10px solid #3b3d3f;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   .post-list {
@@ -113,23 +114,6 @@ body {
   }
   path {
     fill: currentColor;
-  }
-}
-
-.name-intro {
-  margin-bottom: 2em;
-}
-
-.header-links {
-  a.about-me, a.suggested, a.resume {
-    text-align: center;
-    padding: 20px 20px 0;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    &:hover {
-      color: $secondary-accent;
-    }
   }
 }
 
@@ -265,6 +249,66 @@ body {
   padding-bottom: 30px;
 }
 
+.side-header-bio, .footer-bio {
+  .name-intro {
+    margin-bottom: 4em;
+  }
+  .header-links {
+    .about-me, .suggested, .resume {
+      text-align: center;
+      margin: 2em 0;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: block;
+      width: auto;
+      color: $secondary-accent;
+      &:hover {
+        color: $primary-accent;
+      }
+      a {
+        color: $secondary-accent;
+      }
+    }
+  }
+  .footer-links {
+    color: $primary-accent;
+    .about-me, .suggested, .resume {
+      text-align: center;
+      display: inline-block;
+      font-weight: bold;
+      margin: 1em .5em;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: auto;
+      &:hover {
+        color: $primary-accent;
+      }
+      a {
+        color: $secondary-accent;
+      }
+    }
+  }
+}
+
+.footer-bio {
+  margin-bottom: 1em;
+  .about-me {
+    // display: flex;
+  }
+  .suggested {
+    // display: flex;
+  }
+}
+
+.side-header-bio {
+  display: none;
+}
+
+.footer-bio {
+  display: block;
+  text-align: center;
+}
+
 ::selection {
   background-color: $highlight-yellow;
 }
@@ -287,6 +331,7 @@ body {
   }
   .site-footer {
     background: transparent;
+    border-bottom: none;
     position: fixed;
     width: 300px;
     left: 0;
@@ -314,6 +359,12 @@ body {
     ul {
       padding-left: 20px;
     }
+  }
+  .side-header-bio {
+    display: block;
+  }
+  .footer-bio {
+    display: none;
   }
 }
 
