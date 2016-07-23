@@ -1,0 +1,419 @@
+.resume-theme-default {
+  background-color: white;
+}
+
+.resume-wrapper:before,
+.resume-wrapper:after {
+  content: "";
+  display: table;
+}
+
+.resume-wrapper:after {
+  clear: both;
+}
+
+.resume-wrapper {
+  max-width: 728px;
+  padding: 0 24px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.resume-group:before,
+.resume-group:after {
+  content: "";
+  display: table;
+}
+
+.resume-group:after {
+  clear: both;
+}
+
+.resume-group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
+
+/*::-moz-selection {
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  text-shadow: none; }*/
+
+.resume-container {
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+}
+  .resume-container:before {
+    display: table;
+    content: "";
+  }
+  .resume-container:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+
+.resume-columns {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.resume-columns:before {
+  display: table;
+  content: "";
+}
+.resume-columns:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.resume-column {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.resume-one-third {
+  width: 33.333333%;
+}
+
+.resume-two-thirds {
+  width: 66.666667%;
+}
+
+.resume-one-fourth {
+  width: 25%;
+}
+
+.resume-one-half {
+  width: 50%;
+}
+
+.resume-three-fourths {
+  width: 75%;
+}
+
+.resume-one-fifth {
+  width: 20%;
+}
+
+.resume-four-fifths {
+  width: 80%;
+}
+
+.resume-single-column {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.resume-table-column {
+  display: table-cell;
+  width: 1%;
+  padding-right: 10px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.skills-table {
+  border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 1.5;
+}
+
+.skills-table tr {
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  padding: 5px;
+}
+
+.skills-table th, .skills-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.skills-table th {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .skills-table {
+    border: 0;
+  }
+
+  .skills-table thead {
+    display: none;
+  }
+
+  .skills-table tr {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .skills-table td {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 1.5;
+  }
+
+  .skills-table td:last-child {
+    border-bottom: 0;
+  }
+
+  .skills-table td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.resume-section-header {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .4rem;
+  margin-bottom: 1.5rem;
+}
+
+.resume-section-header h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 1.75rem;
+  letter-spacing: -.05rem;
+  margin: 0;
+}
+
+.resume-page-header {
+  padding: 1.5rem 0;
+}
+
+.resume-page-header .resume-avatar {
+  width: 95px;
+  max-width: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.resume-page-header .resume-header-name {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: -.15rem;
+  line-height: 1;
+  margin: 1rem 0 2rem;
+}
+
+.resume-page-header .resume-title-bar {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .4rem;
+  padding: .4rem 0;
+}
+
+.resume-page-header .resume-title-bar:before {
+  display: table;
+  content: "";
+}
+
+.resume-page-header .resume-title-bar:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.resume-page-header .resume-title-bar .resume-header-title {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: -.05rem;
+  text-align: center;
+  margin: 0 0 .5rem;
+}
+
+.resume-executive-summary {
+  margin-top: 10px;
+  p {
+    max-width: 100%;
+    margin-top: 1em;
+  }
+}
+
+.resume-page-header .resume-executive-summary .resume-p {
+  max-width: 100%;
+}
+
+.resume-item-copy, .resume-item-title, .resume-item-details, .resume-item-copy {
+  max-width: 100%;
+}
+
+
+.resume-header-name {
+  max-width: 100%;
+}
+
+.resume-p {
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .resume-page-header .resume-title-bar .resume-header-title {
+    float: left;
+    margin: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .resume-page-header .resume-executive-summary {
+    font-size: 1.125rem;
+  }
+}
+
+.resume-icon-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  top: 4px;
+  text-align: center;
+  border-top: 2px solid #c7c7c7;
+  padding-top: .4rem;
+}
+
+@media (min-width: 600px) {
+  .resume-icon-links {
+    float: right;
+    border-top: none;
+    padding-top: 0;
+  }
+}
+
+.resume-icon-links .resume-icon-link-item {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.resume-icon-links .resume-icon-link {
+  display: inline-block;
+}
+
+.resume-icon-links .resume-icon-link:hover .resume-icon path {
+  fill: #333;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.resume-contact-button {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #333;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 1.5rem auto;
+  width: 220px;
+  font-size: 1.375rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  line-height: 55px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.resume-contact-button:hover {
+  background-color: $secondary-accent;
+  color: #fff;
+}
+
+.resume-contact-button.not-looking {
+  width: 400px;
+}
+
+.resume-content-section {
+  margin: 0 0 3rem;
+}
+
+.resume-content-section .resume-item {
+  margin-bottom: 2rem;
+}
+
+.resume-content-section .resume-item-title {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 .75rem;
+  font-size: 1.5rem;
+  letter-spacing: -.05rem;
+  line-height: 1;
+}
+
+.resume-content-section .resume-item-details {
+  font-size: 1.125rem;
+  margin: 0 0 .75rem;
+  line-height: 1;
+}
+
+.resume-content-section .resume-item-title a,
+.resume-content-section .resume-item-details a,
+.resume-content-section .resume-item-copy a,
+.resume-content-section .resume-item-list a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.resume-content-section .resume-item-title a:hover,
+.resume-content-section .resume-item-details a:hover,
+.resume-content-section .resume-item-copy a:hover,
+.resume-content-section .resume-item-list a:hover {
+  border-bottom: none;
+  color: #9c9c9c;
+}
+
+.resume-content-section .resume-item-copy {
+  margin: .75rem 0 0;
+}
+
+.resume-page-footer {
+  border-top: 4px solid #c7c7c7;
+  padding-top: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.resume-page-footer .resume-footer-line {
+  margin: 0;
+  font-size: .875rem;
+  color: #999;
+}
+
+.resume-page-footer .footer-line > a {
+  font-weight: 700;
+  color: #333;
+}
+
+.resume-footer-logo {
+  margin: auto;
+}

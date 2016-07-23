@@ -2,7 +2,7 @@
 layout: header-image-post
 title: About
 permalink: /about/
-headerimg: /img/doodle.jpg
+headerimg: /img/crwn-background.png
 articleclass: left
 ---
 # About
