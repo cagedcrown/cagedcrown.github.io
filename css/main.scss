@@ -112,8 +112,22 @@ body {
       padding: 0;
     }
   }
-  path {
-    fill: currentColor;
+  path, polygon {
+    fill: $primary-accent;
+  }
+}
+
+.site-footer {
+  a svg:hover #github,
+  a svg:hover #twitter,
+  a svg:hover #instagram,
+  a svg:hover #codepen,
+  a svg:hover #email, {
+    fill: $secondary-accent;
+    transition: 300ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 300ms;
+    -webkit-transition-timing-function: ease-in-out;
   }
 }
 
@@ -268,6 +282,7 @@ body {
   color: $primary-accent;
   .about-me, .suggested, .resume {
     text-align: center;
+    padding: 0 10px;
     display: inline-block;
     font-weight: bold;
     margin: auto;
@@ -297,6 +312,16 @@ body {
     a {
       color: $secondary-accent;
     }
+  }
+  .x-symbol {
+    color: #c5c5c5;
+    cursor: default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
   }
 }
 
@@ -369,6 +394,7 @@ body {
   }
   .footer-links-desktop {
     display: inline;
+    margin: 0 7px;
   }
 }
 

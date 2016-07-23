@@ -37,7 +37,7 @@ git remote add origin git@github.com:USERNAME/USERNAME.github.io.
 
 3) In your `index.html`, type `Hello World!`.
 
-#### Create a CNAME file
+### Create a CNAME file
 
 4) Inside your CNAME file insert your domain name.
 
