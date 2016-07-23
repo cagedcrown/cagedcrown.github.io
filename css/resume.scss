@@ -4,7 +4,7 @@
 
 .resume-wrapper:before,
 .resume-wrapper:after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -21,7 +21,7 @@
 
 .resume-group:before,
 .resume-group:after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -30,46 +30,40 @@
 }
 
 .resume-group {
-  zoom: 1;
-  /* For IE 6/7 (trigger hasLayout) */ }
-
-/*::-moz-selection {
-  background: rgba(51, 51, 51, 0.8);
-  color: #fff;
-  text-shadow: none; }
-
-::selection {
-  background: rgba(51, 51, 51, 0.8);
-  color: #fff;
-  text-shadow: none; }*/
+  zoom: 1; // For IE 6/7 (trigger hasLayout)
+}
 
 .resume-container {
   width: 980px;
   margin-right: auto;
   margin-left: auto;
 }
-  .resume-container:before {
-    display: table;
-    content: "";
-  }
-  .resume-container:after {
-    display: table;
-    clear: both;
-    content: "";
-  }
+
+.resume-container:before {
+  display: table;
+  content: '';
+}
+
+.resume-container:after {
+  display: table;
+  clear: both;
+  content: '';
+}
 
 .resume-columns {
   margin-right: -10px;
   margin-left: -10px;
 }
+
 .resume-columns:before {
   display: table;
-  content: "";
+  content: '';
 }
+
 .resume-columns:after {
   display: table;
   clear: both;
-  content: "";
+  content: '';
 }
 
 .resume-column {
@@ -225,19 +219,18 @@
 .resume-page-header .resume-title-bar {
   border-top: 4px solid #c7c7c7;
   border-bottom: 2px solid #c7c7c7;
-  padding: .2rem 0 .4rem;
   padding: .4rem 0;
 }
 
 .resume-page-header .resume-title-bar:before {
   display: table;
-  content: "";
+  content: '';
 }
 
 .resume-page-header .resume-title-bar:after {
   display: table;
   clear: both;
-  content: "";
+  content: '';
 }
 
 .resume-page-header .resume-title-bar .resume-header-title {
@@ -316,11 +309,11 @@
   display: inline-block;
 }
 
-.resume-icon-links .resume-icon-link:hover .resume-icon path {
+.resume-icon-link:hover .resume-icon path {
   fill: #333;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
 }
 
 .resume-contact-button {
@@ -338,9 +331,9 @@
   font-weight: 300;
   color: #fff;
   line-height: 55px;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
 }
 
 .resume-contact-button:hover {
@@ -348,8 +341,24 @@
   color: #fff;
 }
 
-.resume-contact-button.not-looking {
+.resume-contact-button-not-looking {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #333;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 1.5rem auto;
   width: 400px;
+  font-size: 1.375rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  line-height: 55px;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
 }
 
 .resume-content-section {
@@ -400,7 +409,7 @@
   border-top: 4px solid #c7c7c7;
   padding-top: 1.5rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
 }
 
 .resume-page-footer .resume-footer-line {

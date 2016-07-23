@@ -9,7 +9,6 @@ permalink: /resume/
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Maury Lindo's Resume</title>
   <meta name="description" content="Resume of Maury T. Lindo">
-  <link rel="icon" type="image/x-icon" href="/favicon.png" />
 </head>
 
 <div class="resume-wrapper" itemscope itemtype="http://schema.org/Person">
@@ -28,7 +27,7 @@ permalink: /resume/
       <p class="resume-p">Multimedia artist turned Front-End Engineer who aims to create visually stunning and interactive websites. Insatiable learner who has a passion for JavaScript, Ruby, and personal growth. Proven ability to work in a team setting while being able to prioritize work.</p>
     </div>
     <a href="mailto:mo@cagedcrown.com" class="resume-contact-button" itemprop="email">Contact me</a>
-    <!-- <a class="contact-button not-looking">I'm not looking for work right now.</a> -->
+    <!-- <a class="resume-contact-button-not-looking">I'm not looking for work right now.</a> -->
   </header>
 
   <!-- begin Skills -->
@@ -207,23 +206,13 @@ permalink: /resume/
   <footer class="resume-page-footer">
     <div class="logo">
       <a href="/">
-        <svg class="resume-footer-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="block" margin="auto" width="75" height="75"
-           viewBox="0 0 2141.8 1471.8" enable-background="new 0 0 2141.8 1471.8" xml:space="preserve">
-          <g id="crwn">
-            <polygon fill="#009999" points="1059,1145 662.2,819.7 1059,351.5 1059,1145 	"/>
-            <polygon fill="#76CEDE" points="265.4,494.4 662.2,819.7 265.2,819.7 	"/>
-            <polygon fill="#006666" points="265.3,1288.7 662.2,819.7 1059,1145 	"/>
-            <polygon fill="#008E89" points="1852.5,998.5 1455.7,675.6 1852.4,210.7 	"/>
-            <polygon fill="#013333" points="1059,1145 1455.7,675.6 1852.5,998.5 1059,1145 	"/>
-            <polygon fill="#76CEDE" points="1058.8,352.7 1455.7,675.6 1059,675.6 	"/>
-            <text transform="matrix(1 0 0 1 1406.1584 2302.342)" display="none" font-family="'JosefinSans-SemiBold'" font-size="350px">Blog  Projects  Design  Video  About</text>
-            <text transform="matrix(1 0 0 1 2285.5251 46.342)" display="none" font-family="'MostraNuova'" font-size="300px">Mostra Nuova</text>
-            <text transform="matrix(1 0 0 1 114.4165 46.342)" display="none" font-family="'ProximaNova-Bold'" font-size="300px">Proxima Nova</text>
-            <text transform="matrix(1 0 0 1 4018.5801 46.342)" display="none" font-family="'JosefinSans-SemiBold'" font-size="300px">Josefin Sans</text>
-            <text transform="matrix(1 0 0 1 1192.6816 3107.825)" display="none" font-family="'ProximaNova-Bold'" font-size="500px">JavaScript 101 - Heading</text>
-            <rect x="114.4" y="3269.5" fill="none" width="7465.8" height="1738.2"/>
-            <text transform="matrix(1 0 0 1 114.4165 3443.7063)" display="none"><tspan x="0" y="0" display="inline" fill="#262626" font-family="'JosefinSans-SemiBold'" font-size="205px">Body Text - Lorem Ipsum is simply dummy text of the printing and typesetting industry. </tspan><tspan x="0" y="267" display="inline" fill="#262626" font-family="'JosefinSans-SemiBold'" font-size="205px">Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an </tspan><tspan x="0" y="534" display="inline" fill="#262626" font-family="'JosefinSans-SemiBold'" font-size="205px">unknown printer took a </tspan><tspan x="1936.6" y="534" display="inline" fill="#009999" font-family="'JosefinSans-SemiBold'" font-size="205px">galley (link goes here)</tspan><tspan x="3703.3" y="534" display="inline" fill="#262626" font-family="'JosefinSans-SemiBold'" font-size="205px"> of type and scrambled it to make a type </tspan><tspan x="0" y="801" display="inline" fill="#262626" font-family="'JosefinSans-SemiBold'" font-size="205px">specimen book. It has survived not only five centuries, but also the leap into </tspan><tspan x="6139.2" y="801" display="inline" fill="#008E89" font-family="'JosefinSans-SemiBold'" font-size="205px">electronic type</tspan><tspan x="7324.3" y="801" display="inline" fill="#008E89" font-family="'JosefinSans-SemiBold'" font-size="205px">-</tspan><tspan x="0" y="1068" display="inline" fill="#008E89" font-family="'JosefinSans-SemiBold'" font-size="205px">setting</tspan><tspan x="543" y="1068" display="inline" fill="#262626" font-family="'JosefinSans-SemiBold'" font-size="205px">, remaining essentially unchanged.</tspan></text>
-          </g>
+        <svg class="resume-footer-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="block" margin="auto" width="75" height="75" viewBox="0 0 2141.8 1471.8" enable-background="new 0 0 2141.8 1471.8" xml:space="preserve">
+          <polygon fill="#009999" points="1059,1145 662.2,819.7 1059,351.5 1059,1145"/>
+          <polygon fill="#76CEDE" points="265.4,494.4 662.2,819.7 265.2,819.7"/>
+          <polygon fill="#006666" points="265.3,1288.7 662.2,819.7 1059,1145"/>
+          <polygon fill="#008E89" points="1852.5,998.5 1455.7,675.6 1852.4,210.7"/>
+          <polygon fill="#013333" points="1059,1145 1455.7,675.6 1852.5,998.5 1059,1145"/>
+          <polygon fill="#76CEDE" points="1058.8,352.7 1455.7,675.6 1059,675.6"/>
         </svg>
       </a>
     </div>
