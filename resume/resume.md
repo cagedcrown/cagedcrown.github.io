@@ -28,7 +28,7 @@ permalink: /resume/
       <p class="resume-p">Multimedia artist turned Front-End Engineer who aims to create visually stunning and interactive websites. Insatiable learner who has a passion for JavaScript, Ruby, and personal growth. Proven ability to work in a team setting while being able to prioritize work.</p>
     </div>
     <a href="mailto:mo@cagedcrown.com" class="resume-contact-button" itemprop="email">Contact me</a>
-    <!-- <a class="contact-button not-looking">I'm not looking for work right now.</a> -->
+    <!-- <a class="resume-contact-button-not-looking">I'm not looking for work right now.</a> -->
   </header>
 
   <!-- begin Skills -->

@@ -117,18 +117,17 @@ body {
   }
 }
 
-.site-footer {
-  a svg:hover #github,
-  a svg:hover #twitter,
-  a svg:hover #instagram,
-  a svg:hover #codepen,
-  a svg:hover #email, {
-    fill: $secondary-accent;
-    transition: 300ms;
-    transition-timing-function: ease-in-out;
-    -webkit-transition: 300ms;
-    -webkit-transition-timing-function: ease-in-out;
-  }
+a svg:hover .github-path,
+a svg:hover .twitter-path,
+a svg:hover .instagram-path,
+a svg:hover .codepen-path,
+a svg:hover .email-path,
+a svg:hover .email-polygon, {
+  fill: $secondary-accent;
+  transition: 300ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 300ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
 .social-links {
@@ -164,8 +163,6 @@ body {
   }
 }
 
-
-
 .post {
   p, ul, h1, h2, h3, h4, h5, h6, .content-bounds {
     position: realtive;
@@ -173,17 +170,14 @@ body {
     margin-right: auto;
   }
   &.left {
-    p, ul, h1, h2, h3, h4, h5, h6 {
+    p, ul, h3, h4, h5, h6 {
       max-width: 70%;
       margin-left: 0;
       margin-right: 0;
     }
-  }
-}
-
-.post, .post.left {
-  h1, h2 {
-    max-width: 100%;
+    h1, h2 {
+      max-width: 100%;
+    }
   }
 }
 
@@ -334,10 +328,6 @@ body {
   text-align: center;
   margin-bottom: 1em;
 }
-
-// .site-footer .footer-links-desktop {
-//   display: none;
-// }
 
 ::selection {
   background-color: $highlight-yellow;
