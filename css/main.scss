@@ -283,12 +283,26 @@ a svg:hover .email-polygon, {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: auto;
-    &:hover {
-      color: $primary-accent;
-    }
     a {
       color: $secondary-accent;
     }
+    a:hover {
+      color: $primary-accent;
+      transition: 300ms;
+      transition-timing-function: ease-in-out;
+      -webkit-transition: 300ms;
+      -webkit-transition-timing-function: ease-in-out;
+    }
+  }
+  .x-symbol {
+    color: #c5c5c5;
+    cursor: default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
   }
 }
 
@@ -300,11 +314,15 @@ a svg:hover .email-polygon, {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: auto;
-    &:hover {
-      color: $primary-accent;
-    }
     a {
       color: $secondary-accent;
+    }
+    a:hover {
+      color: $primary-accent;
+      transition: 300ms;
+      transition-timing-function: ease-in-out;
+      -webkit-transition: 300ms;
+      -webkit-transition-timing-function: ease-in-out;
     }
   }
   .x-symbol {
