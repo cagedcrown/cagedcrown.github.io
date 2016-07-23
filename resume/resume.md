@@ -9,7 +9,6 @@ permalink: /resume/
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Maury Lindo's Resume</title>
   <meta name="description" content="Resume of Maury T. Lindo">
-  <link rel="icon" type="image/x-icon" href="/favicon.png" />
 </head>
 
 <div class="resume-wrapper" itemscope itemtype="http://schema.org/Person">
