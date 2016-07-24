@@ -1,6 +1,6 @@
 ---
 layout: header-image-post
-title:  "Hosting your site on Github in 10 Minutes or less"
+title:  "Hosting your site on Github"
 date:   2015-01-11 10:21:23
 headerimg: /img/github_hosting_1024x512.jpg
 articleclass: left
