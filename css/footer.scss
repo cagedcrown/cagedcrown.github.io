@@ -60,16 +60,7 @@
     -webkit-transition-timing-function: ease-in-out;
   }
 }
-.x-symbol {
-  color: #c5c5c5;
-  cursor: default;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently not supported by any browser */
-}
+
 
 .footer-links-mobile {
   .about-me,
@@ -85,7 +76,7 @@
   .suggested,
   .resume {
     display: inline-block; //
-    margin: 1em .5em;
+    margin: 1em .8em;
   }
 }
 
