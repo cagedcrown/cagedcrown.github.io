@@ -78,58 +78,6 @@ body {
   }
 }
 
-.site-footer {
-  bottom: 0;
-  width: 100%;
-  border-bottom: 10px solid #3b3d3f;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  .post-list {
-    max-width: 400px;
-    position: relative;
-    margin: 0 auto;
-    padding: 20px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    a {
-      display: inline-block;
-      width: auto;
-    }
-    time {
-      display: inline-block;
-      margin-top: 2px;
-    }
-    h1 {
-      font-size: 1.8rem;
-      color: $background-color;
-      font-weight: 600;
-      text-transform: none;
-      border-bottom: 1px solid $background-color;
-      padding-bottom: 10px;
-    }
-    ul {
-      margin: 0;
-      padding: 0;
-    }
-  }
-  path, polygon {
-    fill: $primary-accent;
-  }
-}
-
-a svg:hover .github-path,
-a svg:hover .twitter-path,
-a svg:hover .instagram-path,
-a svg:hover .codepen-path,
-a svg:hover .email-path,
-a svg:hover .email-polygon, {
-  fill: $secondary-accent;
-  transition: 300ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 300ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
-
 .social-links {
   text-align: center;
   margin-top: 3em;
@@ -272,138 +220,12 @@ a svg:hover .email-polygon, {
   }
 }
 
-.footer-links-mobile {
-  color: $primary-accent;
-  .about-me, .suggested, .resume {
-    text-align: center;
-    padding: 0 10px;
-    display: inline-block;
-    font-weight: bold;
-    margin: auto;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: auto;
-    a {
-      color: $secondary-accent;
-    }
-    a:hover {
-      color: $primary-accent;
-      transition: 300ms;
-      transition-timing-function: ease-in-out;
-      -webkit-transition: 300ms;
-      -webkit-transition-timing-function: ease-in-out;
-    }
-  }
-  .x-symbol {
-    color: #c5c5c5;
-    cursor: default;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none;   /* Chrome/Safari/Opera */
-    -khtml-user-select: none;    /* Konqueror */
-    -moz-user-select: none;      /* Firefox */
-    -ms-user-select: none;       /* Internet Explorer/Edge */
-    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
-  }
-}
-
-.footer-links-desktop {
-  .about-me, .suggested, .resume {
-    text-align: center;
-    font-weight: bold;
-    margin: 1em .5em;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: auto;
-    a {
-      color: $secondary-accent;
-    }
-    a:hover {
-      color: $primary-accent;
-      transition: 300ms;
-      transition-timing-function: ease-in-out;
-      -webkit-transition: 300ms;
-      -webkit-transition-timing-function: ease-in-out;
-    }
-  }
-  .x-symbol {
-    color: #c5c5c5;
-    cursor: default;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none;   /* Chrome/Safari/Opera */
-    -khtml-user-select: none;    /* Konqueror */
-    -moz-user-select: none;      /* Firefox */
-    -ms-user-select: none;       /* Internet Explorer/Edge */
-    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
-  }
-}
-
 .side-header-bio {
   display: none;
 }
 
-.footer-bio {
-  display: block;
-  text-align: center;
-  margin-bottom: 1em;
-}
-
 ::selection {
   background-color: $highlight-yellow;
-}
-
-.footer-links-desktop {
-  display: none;
-}
-
-@media only screen and (min-width: 900px) {
-  body {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 300px;
-    display: block;
-  }
-  .site-header {
-    position: fixed;
-    width: 300px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding: 40px;
-  }
-  .site-footer {
-    background: transparent;
-    border-bottom: none;
-    position: fixed;
-    width: 300px;
-    left: 0;
-    bottom: 0;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .post-list {
-    padding: 40px 50px;
-    li {
-      list-style: none;
-      margin-bottom: .5rem;
-      font-size: 1rem;
-      padding: 0;
-      height: auto;
-    }
-    ul {
-      padding-left: 20px;
-    }
-  }
-  .side-header-bio {
-    display: block;
-  }
-  .footer-bio {
-    display: none;
-  }
-  .footer-links-desktop {
-    display: inline;
-    margin: 0 7px;
-  }
 }
 
 .post-list {
@@ -414,9 +236,4 @@ a svg:hover .email-polygon, {
 
 .twitter-tweet, .twitter-tweet-rendered {
   margin-left: 30px;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  body, .site-header, .site-footer {
-    background-size: 50px 50px;
-  }
 }

@@ -1,0 +1,24 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+      <div class="svg-background-container">
+        <img class="svg-bg-desktop" src="/img/triangles.svg" alt="svg background">
+        <img class="svg-bg-mobile" src="/img/triangles.svg" alt="svg background">
+      </div>
+
+    {% include header.html %}
+
+    <main class="page-content">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    </body>
+</html>
