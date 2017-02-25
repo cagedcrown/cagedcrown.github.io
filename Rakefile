@@ -5,7 +5,6 @@ require 'yaml'
 require 'fileutils'
 require 'rbconfig'
 require 'html-proofer'
-require 'scss_lint/rake_task'
 
 # == Configuration =============================================================
 
@@ -218,11 +217,6 @@ task :html_proofer do
   }).run
 end
 
-# rake scss_lint
-desc "Lint SCSS"
-SCSSLint::RakeTask.new do |t|
-end
-
 # rake lint
 desc "Markdown Lint"
 task :markdown_lint do
@@ -232,7 +226,6 @@ end
 desc "All lints"
 task :lint do
   Rake::Task["markdown_lint"].invoke
-  Rake::Task["scss_lint"].invoke
 end
 
 desc "Run HTML Proofer and Lint Tasks"

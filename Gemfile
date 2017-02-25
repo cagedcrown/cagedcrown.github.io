@@ -5,6 +5,5 @@ gem 'github-pages'
 group :test, :development do
   gem 'rake'
   gem 'html-proofer'
-  gem 'scss_lint'
   gem 'mdl', '0.3.0'
 end
