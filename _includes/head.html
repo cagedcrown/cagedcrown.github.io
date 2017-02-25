@@ -1,33 +1,18 @@
-{% assign pagetitle = site.title %}
-{% if page.title %}
-  {% assign pagetitle = page.title %}
-{% endif %}
-
-{% assign pagedescription = site.description %}
-{% if page.description %}
-  {% assign pagedescription = page.description %}
-{% endif %}
-
-{% assign pageurl = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
-
-{% assign twitterImage = site.twitter.image %}
-{% if page.twitter.image %}
-  {% assign twitterImage = page.twitter.image %}
-{% endif %}
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ pagetitle }}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}Mo Lindo: Front-End Engineer{% endif %}</title>
   <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Mo Lindo">
   <meta name="description" content="{{ site.description }}">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@cagedcrown">
-  <meta name="twitter:title" content="{{ pagetitle }}">
-  <meta name="twitter:description" content="{{ pagedescription }}">
-  <meta name="twitter:image:src" content="{{ twitterImage }}">
-  <meta name="twitter:url" content="{{ pageurl }}" />
+  {% if page.title %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@cagedcrown">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{{ site.url }}/img/crwn-logo.png">
+    <meta name="twitter:url" content="{{ site.url }}" />
+  {% endif %}
 
   <link rel="canonical" href="{{ pageurl }}">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
