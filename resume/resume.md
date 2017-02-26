@@ -27,7 +27,6 @@ permalink: /resume/
       <p class="resume-p">Multimedia artist turned Front-End Engineer who aims to create visually stunning and interactive websites. Insatiable learner who has a passion for JavaScript, Ruby, and personal growth. Proven ability to work in a team setting while being able to prioritize work.</p>
     </div>
     <a href="mailto:mo@cagedcrown.com" class="resume-contact-button" itemprop="email">Contact me</a>
-    <!-- <a class="resume-contact-button-not-looking">I'm not looking for work right now.</a> -->
   </header>
 
   <!-- begin Skills -->
@@ -63,31 +62,41 @@ permalink: /resume/
     <header class="resume-section-header">
       <h2>Experience</h2>
     </header>
+
+    <!-- another resume item -->
+    <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+      <h3 class="resume-item-title" itemprop="name"><a href="https://adhocteam.us">Ad Hoc LLC</a></h3>
+      <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; Aug, 2016 &mdash; Present</h4>
+      <p class="resume-item-copy">
+      At Ad Hoc, I work with a small team of designers and developers to craft beautiful, simple, and usable web-based applications and services. So far, I helped build a couple of React.js apps for the launch of <a href="https://www.vets.gov/">Vets.gov</a> as well as other products that enable citizen to government interactions. Our goal is to better understand and translate policy and business requirements into features, user stories, automated tests, and working code.</p>
+    </div><!-- end of resume-item -->
+
     <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-      <h3 class="resume-item-title" itemprop="name">LivingSocial</h3>
+      <h3 class="resume-item-title" itemprop="name"><a href="https://livingsocial.com">LivingSocial</a></h3>
       <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; Jun, 2015 &mdash; May, 2016</h4>
-      <p class="resume-item-copy">Tasked with updating and improving LivingSocial’s Merchant Portal while on the Merchant Center team. Duties included:</p>
+      <p class="resume-item-copy">Tasked with updating and improving LivingSocial’s <a href="https://merchant.livingsocial.com/welcome">Merchant Portal</a> while on the Merchant Center team. Duties included:</p>
       <ul class="resume-item-list">
         <li>Rotational On-Call Responsibility for triaging production issues from support, prioritizing them, then implementing and communicating fixes to numerous stakeholders</li>
         <li>Managed and maintained the Front-End for four large-scale applications</li>
         <li>Collaborated with UX and Marketing departments to create high quality site updates and redesigns</li>
         <li>Estimated effort/risk for new features and projects and provided reports/recommendations to management</li>
-        <li>Released newversions of custom livingsocial gems</li>
+        <li>Released new versions of custom LivingSocial gems</li>
         <li>Responsive UI for mobile and tablet screens</li>
       </ul>
-    </div><!-- end of resume-item -->
+    </div>
+    <!-- end of resume-item -->
 
     <!-- another resume item -->
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-      <h3 class="resume-item-title" itemprop="name">General Assembly</h3>
-      <h4 class="resume-item-details" itemprop="description">Web Development Immersive &bull; Nov, 2014 &mdash; Mar, 2015</h4>
+      <h3 class="resume-item-title" itemprop="name"><a href="https://generalassemb.ly">General Assembly</a></h3>
+      <h4 class="resume-item-details" itemprop="description"><a href="https://generalassemb.ly/education/web-development-immersive">Web Development Immersive</a> &bull; Nov, 2014 &mdash; Mar, 2015</h4>
       <p class="resume-item-copy">Full-Stack web development program focused on common best practices in object-oriented programming, MVC frameworks, data modeling, and test-driven development. Developed a portfolio of individually focused and collaboratively focused projects.</p>
     </div><!-- end of resume-item -->
 
     <!-- by now you're getting the picture... -->
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-      <h3 class="resume-item-title" itemprop="name">VueCare Media, LLC</h3>
+      <h3 class="resume-item-title" itemprop="name"><a href="http://vuecaremedia.com/vcm/">VueCare Media, LLC</a></h3>
       <h4 class="resume-item-details" itemprop="description">Multimedia Producer &bull; May, 2013 &mdash; Oct, 2014</h4>
       <p class="resume-item-copy">Created patient education content through the use of scientific animations and broadcast-quality motion design.</p>
       <ul class="resume-item-list">
@@ -102,8 +111,9 @@ permalink: /resume/
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Risk and Strategic Management, Corp</h3>
       <h4 class="resume-item-details" itemprop="description">3D Animation Intern &bull; May, 2012 &mdash; May, 2013</h4>
-      <p class="resume-item-copy">Full-Stack web development program focused on common best practices in object-oriented programming, MVC frameworks, data modeling, and test-driven development. Developed a portfolio of individually focused and collaboratively focused projects.</p>
-    </div><!-- end of resume-item -->
+      <p class="resume-item-copy">Create, direct, assist, and review the production of 3D computer animated education videos, which is related to risk management.</p>
+    </div>
+    <!-- end of resume-item -->
   </section>
   <!-- end Experience -->
 
