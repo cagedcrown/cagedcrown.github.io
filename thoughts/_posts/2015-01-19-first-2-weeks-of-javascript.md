@@ -3,7 +3,7 @@ layout: header-image-post
 title:  "Binge learning JavaScript"
 date:   2015-01-19 10:21:23
 headerimg: /img/javascript.png
-articleclass: left
+articleclass: center
 ---
 
 ## It's not Java
@@ -11,9 +11,6 @@ articleclass: left
 About 3 years ago, I made the made mistake of saying that I wanted to learn Java. I thought Java was short for JavaScript, but I was young and foolish. Non-programmers don't really know any better when it comes to Java and JavaScript. They sound similar, but thats where the comparison ends. JavaScript was originally called 'LiveScript' back in the 90's, but someone on their PR team decided it was a good idea to hop on the Java bandwagon. So for all my programmer buddies, go easy on your friends and family... to a degree it's not their fault.
 
 ## JavaScript Weekend Workshop
-
-<blockquote class="twitter-tweet" lang="en"><p>Because of the javascript workshop last weekend, I&#39;ve been <a href="https://twitter.com/GA_DC">@GA_DC</a> for 12 days straight. I practically live here. <a href="https://twitter.com/hashtag/dctech?src=hash">#dctech</a> <a href="https://twitter.com/hashtag/wdidc4?src=hash">#wdidc4</a></p>&mdash; Mo Líndo (@cagedcrown) <a href="https://twitter.com/cagedcrown/status/556133621980200960">January 16, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I decided to do a really crazy thing last weekend, and that was to take a weekend bootcamp while I was already in a 12-week bootcamp. Javascript is everywhere and I couldn't miss the opportunity to get a head start on one of the most powerful languages out there.
 
@@ -28,9 +25,6 @@ For the first 7 weeks of the immersive program, we did everything in Ruby and Ru
 [Syntax Comparison between JavaScript & Ruby](http://agentcooper.github.io/js-ruby-comparison/)
 
 ## CodePen Meetup
-
-<blockquote class="twitter-tweet" lang="en"><p>Had a great time at the <a href="https://twitter.com/CodePen">@CodePen</a> meetup. Shoutout to <a href="https://twitter.com/recursivefunk">@recursivefunk</a> and <a href="https://twitter.com/EliFitch">@EliFitch</a> for being awesome dudes.</p>&mdash; Mo Líndo (@cagedcrown) <a href="https://twitter.com/cagedcrown/status/555896779338940416">January 16, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The first ever CodePen DC meet-up took place at Nclud, a creative design agency in Washington, DC, which was only a few blocks away from General Assembly. There was pizza, beer, and a lot of cool people showing off their CodePen projects. To be honest, a lot of the stuff went over my head, but I really enjoyed meeting and talking to professional developers. It's always inspiring seeing pro developers in action because they were in my shoes at one point. The DC tech scene is very friendly and welcoming, and I plan on being an active member in the community.
 
