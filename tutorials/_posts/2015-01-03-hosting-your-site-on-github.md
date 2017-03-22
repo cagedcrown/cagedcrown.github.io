@@ -16,7 +16,6 @@ Create a new repo that is an exact match of your username.
 
 ## git init or git clone
 
-
 ```
 touch README.md
 git init
@@ -25,7 +24,6 @@ git commit -m "first commit"
 git remote add origin git@github.com:USERNAME/USERNAME.github.io.git
 git push -u origin master
 ```
-
 
 ## Create an index.html
 
